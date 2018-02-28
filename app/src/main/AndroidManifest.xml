@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iexamcenter.odiacalendar">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".CalendarWeatherApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.iexamcenter.odiacalendar.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name=".sqlite.HoroscopeContentProvider"
+            android:authorities="com.iexamcenter.odiacalendar.authoritieshoroscope"
+            android:exported="false" />
+        <provider
+            android:name=".sqlite.NewsContentProvider"
+            android:authorities="com.iexamcenter.odiacalendar.authoritiesnews"
+            android:exported="false" />
+        <provider
+            android:name=".sqlite.RssContentProvider"
+            android:authorities="com.iexamcenter.odiacalendar.authoritiesrss"
+            android:exported="false" />
+        <provider
+            android:name=".sqlite.OnThisDayContentProvider"
+            android:authorities="com.iexamcenter.odiacalendar.authoritieswhattoday"
+            android:exported="false" />
+    </application>
+
+</manifest>

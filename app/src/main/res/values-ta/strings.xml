@@ -1,0 +1,973 @@
+<resources>
+    <string name="o_sankranti">சங்கராந்தி</string>
+    <string name="o_paksha">பட்சம் </string>
+    <string name="o_bara">கிழமை</string>
+    <string name="o_tithi">திதி</string>
+    <string name="o_masa">மாதம்</string>
+
+    <string name="o_ritu">பருவகாலம்</string>
+    <string name="o_festival">திருவிழா</string>
+    <string name="o_nakshetra">நட்சத்திரம்</string>
+    <string name="o_sunsign">சூரியன் ராசி</string>
+    <string name="o_moonsign">சந்திரன் ராசி</string>
+    <string name="o_sunrise">சூரியோதயம்</string>
+    <string name="o_sunset">சூரியாஸ்தமனம்</string>
+    <string name="o_moonrise">சந்திரௌதயம்</string>
+    <string name="o_moonset">சந்திராஸ்தமனம்</string>
+    <string name="o_dina">தினம்</string>
+    <string name="o_inauspicious">ராகு கலாம்</string>
+    <string name="o_auspicious">நல்ல நேரம</string>
+    <string name="o_veryauspicious">மிகவும் நல்ல நேரம்</string>
+
+    <string-array name="publication"></string-array>
+    <string-array name="l_number_arr">
+        <item>௦</item>
+        <item>௧</item>
+        <item>௨</item>
+        <item>௩</item>
+        <item>௪</item>
+        <item>௫</item>
+        <item>௬</item>
+        <item>௭</item>
+        <item>௮</item>
+        <item>௯</item>
+    </string-array>
+    <string-array name="l_paksha_arr">
+        <item>சுக்ல</item>
+        <item>கிருஷ்ண</item>
+    </string-array>
+    <string-array name="l_masa_arr">
+        <item>சித்திரை</item>
+        <item>வைகாசி</item>
+        <item>ஆனி</item>
+        <item>ஆடி</item>
+        <item>ஆவணி</item>
+        <item>புரட்டாசி</item>
+        <item>ஐப்பசி</item>
+        <item>கார்த்திகை</item>
+        <item>மார்கழி</item>
+        <item>தை</item>
+        <item>மாசி</item>
+        <item>பங்குனி</item>
+
+    </string-array>
+    <string-array name="l_month_arr">
+        <item>ஜனவரி</item>
+        <item>பிப்ரவரி</item>
+        <item>மார்ச்</item>
+        <item>ஏப்ரல்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆகஸ்ட்</item>
+        <item>செப்டம்பர்</item>
+        <item>அக்டோபர்</item>
+        <item>நவம்பர்</item>
+        <item>டிசம்பர்</item>
+    </string-array>
+    <string-array name="l_bara_arr">
+        <item>ஞாயிறு</item>
+        <item>திங்கள்</item>
+        <item>செவ்வாய்</item>
+        <item>புதன்</item>
+        <item>வியாழன்</item>
+        <item>வெள்ளி</item>
+        <item>சனி</item>
+    </string-array>
+    <string-array name="l_rasi_kundali_arr">
+        <item>மேஷம்</item>
+        <item>ரிஷபம்</item>
+        <item>மிதுனம்</item>
+        <item>கடகம்</item>
+        <item>சிம்மம்</item>
+        <item>கன்னி</item>
+        <item>துலாம்</item>
+        <item>விருச்சிகம்</item>
+        <item>தனுசு</item>
+        <item>மகரம்</item>
+        <item>கும்பம்</item>
+        <item>மீனம்</item>
+    </string-array>
+    <string-array name="l_nakshatra_arr">
+        <item>அஸ்வினி</item>
+        <item>பரணி</item>
+        <item>கிருத்திகை</item>
+        <item>ரோகிணி</item>
+        <item>மிருகசிரீஷம்</item>
+        <item>திருவாதிரை</item>
+        <item>புனர்பூசம்</item>
+        <item>பூசம்</item>
+        <item>ஆயில்யம்</item>
+        <item>மகம்</item>
+        <item>பூரம்</item>
+        <item>உத்திரம்</item>
+        <item>ஹஸ்தம்</item>
+        <item>சித்திரை</item>
+        <item>சுவாதி</item>
+        <item>விசாகம்</item>
+        <item>அனுஷம்</item>
+        <item>கேட்டை</item>
+        <item>முலம்</item>
+        <item>பூராடம்</item>
+        <item>உத்திராடம்</item>
+        <item>திருவோணம்</item>
+        <item>அவிட்டம்</item>
+        <item>சதயம்</item>
+        <item>பூரட்டாதி </item>
+        <item>உத்திரட்டாதி</item>
+        <item>ரேவதி</item>
+        <item>அபிஜித்</item>
+
+
+    </string-array>
+
+    <string-array name="l_tithi_arr">
+        <item>அமாவாசை</item>
+        <item>பிரதமை</item>
+        <item>த்விதியை</item>
+        <item>த்ரிதியை</item>
+        <item>சதுர்த்தி</item>
+        <item>பஞ்ஜமி</item>
+        <item>சஷ்டி</item>
+        <item>சப்தமி</item>
+        <item>அஷ்டமி</item>
+        <item>நவமி</item>
+        <item>தசமி</item>
+        <item>ஏகாதசி</item>
+        <item>த்வாதசி</item>
+        <item>த்ரயோதசி</item>
+        <item>சதுர்தசி</item>
+        <item>பொளர்ணமி</item>
+    </string-array>
+
+    <string name="eng_o_sankranti">Sankranthi</string>
+    <string name="eng_o_paksha">Patcham</string>
+    <string name="eng_o_dina">Dinam</string>
+    <string name="eng_o_bara">Kizhamai</string>
+    <string name="eng_o_tithi">Tithi</string>
+
+    <string name="eng_o_ritu">Paruvakalam</string>
+    <string name="eng_o_masa">Matham</string>
+    <string name="eng_o_festival">Thiruvizha</string>
+    <string name="eng_o_nakshetra">Natchathiram</string>
+    <string name="eng_o_sunsign">Surya Rasi</string>
+    <string name="eng_o_moonsign">Chandra Rasi</string>
+    <string name="eng_o_sunrise">Suryothayam</string>
+    <string name="eng_o_sunset">Suryasthamanam</string>
+    <string name="eng_o_moonrise">Chandrothayam</string>
+    <string name="eng_o_moonset">Chandrasthamanam</string>
+
+    <string-array name="masa_arr">
+        <item>Cithirai</item>
+        <item>Vaikasi</item>
+        <item>Aani</item>
+        <item>Aadi</item>
+        <item>Avani</item>
+        <item>Puraṭtasi</item>
+        <item>Aippasi</item>
+        <item>Karthikai</item>
+        <item>Markazhi</item>
+        <item>Thai</item>
+        <item>Masi</item>
+        <item>Pankuni</item>
+
+    </string-array>
+
+    <string-array name="bara_arr">
+        <item>Nyaitrru</item>
+        <item>Thingat</item>
+        <item>Chevvai</item>
+        <item>Bhudhan</item>
+        <item>Vyazhak</item>
+        <item>Vellik</item>
+        <item>Sanik</item>
+    </string-array>
+    <string-array name="ritu_arr">
+        <item>Muthuvenil</item>
+        <item>Kaar</item>
+        <item>Kulir</item>
+        <item>Mun-pani</item>
+        <item>Pin-pani</item>
+        <item>ILavenil</item>
+    </string-array>
+    <string-array name="l_ritu_arr">
+        <item>முதுவேனில்</item>
+        <item>கார்</item>
+        <item>குளிர்</item>
+        <item>முன்பனி</item>
+        <item>பின்பனி</item>
+        <item>இளவேனில்</item>
+    </string-array>
+
+    <string-array name="rasi_kundali_arr">
+        <item>Mesham</item>
+        <item>Rishabham</item>
+        <item>Mithunam</item>
+        <item>Kadagam</item>
+        <item>Simmam</item>
+        <item>Kanni</item>
+        <item>Thulam</item>
+        <item>Virichigam</item>
+        <item>Dhanusu</item>
+        <item>Makaram</item>
+        <item>Kumbham</item>
+        <item>Minam</item>
+    </string-array>
+
+    <string-array name="nakshatra_arr">
+        <item>Aswini</item>
+        <item>Bharani</item>
+        <item>Kiruthigai</item>
+        <item>Rohini</item>
+        <item>Mrigasheersham</item>
+        <item>Thiruvaathirai</item>
+        <item>Punarpoosam</item>
+        <item>Poosam</item>
+        <item>Aayilyam</item>
+        <item>Makam</item>
+        <item>Pooram</item>
+        <item>Uthiram</item>
+        <item>Hastham</item>
+        <item>Chithirai</item>
+        <item>Swaathi</item>
+        <item>Visaakam</item>
+        <item>Anusham</item>
+        <item>Kettai</item>
+        <item>Moolam</item>
+        <item>Pooraadam</item>
+        <item>Uthiraadam</item>
+        <item>Thiruvonam</item>
+        <item>Avittam</item>
+        <item>Chathayam</item>
+        <item>Poorattathi</item>
+        <item>Uthirattathi</item>
+        <item>Revathi</item>
+        <item>Abhijit</item>
+    </string-array>
+    <string-array name="tithi_arr">
+        <item>Amavasai</item>
+        <item>Prathamai</item>
+        <item>Dwitiyai</item>
+        <item>Tritiyai</item>
+        <item>Chaturthi</item>
+        <item>Panchami</item>
+        <item>Shashthi</item>
+        <item>Sapthami</item>
+        <item>Ashtami</item>
+        <item>Navami</item>
+        <item>Dasami</item>
+        <item>Ekadasi</item>
+        <item>Dwadasi</item>
+        <item>Trayodasi</item>
+        <item>Chaturdasi</item>
+        <item>Pournami</item>
+    </string-array>
+
+    <string-array name="l_festival_arr">
+        <item>{"key":"1","highlight":"1","is_holiday":"1","icon":"ic_holiday_new_year","festival":\""Aangila puththandu\"","festivalL":\""ஆங்கில புத்தாண்டு\""}</item>
+        <item>{"key":"2","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Arudra Darshan\"","festivalL":\""ஆருத்ரா தரிசனம்\""}</item>
+        <item>{"key":"3","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Bhogi Pandigai\"","festivalL":\""போகி பண்டிகை\""}</item>
+
+        <item>{"key":"4","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Pongal\"","festivalL":\""பொங்கல்\""}</item>
+        <item>{"key":"5","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Mattu Pongal\"","festivalL":\""மாட்டுப் பொங்கல்\""}</item>
+        <item>{"key":"6","highlight":"1","is_holiday":"1","icon":"ic_holiday_india","festival":\""Republic Day\"","festivalL":\""குடியரசு தினம்\""}</item>
+
+        <item>{"key":"7","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Thai Amavasai\"","festivalL":\""தை அமாவாசை\""}</item>
+        <item>{"key":"8","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Ratha Sapthami\"","festivalL":\""ரத சப்தமி\""}</item>
+
+        <item>{"key":"9","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Thai Pusam\"","festivalL":\""தைப்பூசம்\""}</item>
+        <item>{"key":"10","highlight":"1","is_holiday":"0","icon":"ic_holiday_shiva_ratri","festival":\""Shivaratri\"","festivalL":\""சிவராத்திரி\""}</item>
+        <item>{"key":"11","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Masi Magam\"","festivalL":\""மாசி மகம்\""}</item>
+
+        <item>{"key":"12","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Karadaiyan Nonbu\"","festivalL":\""காரடையான் நோன்பு\""}</item>
+        <item>{"key":"13","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Telugu puththandu\"","festivalL":\""தெலுங்கு புத்தாண்டு\""}</item>
+        <item>{"key":"14","highlight":"1","is_holiday":"0","icon":"ic_holiday_ram_navami","festival":\""Rama Navami\"","festivalL":\""இராம நவமி\""}</item>
+        <item>{"key":"15","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Panguni Uthiram\"","festivalL":\""பங்குனி உத்திரம்\""}</item>
+        <item>{"key":"16","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Tamil Puthandu\"","festivalL":\""புத்தாண்டு\""}</item>
+        <item>{"key":"17","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Akshaya Thiruthiyai\"","festivalL":\""அட்சய திருதியை\""}</item>
+        <item>{"key":"18","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Sankara Jayanthi\"","festivalL":\""சங்கர ஜெயந்தி\""}</item>
+        <item>{"key":"19","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Ramanuja Jayanthi\"","festivalL":\""ராமானுஜ ஜெயந்தி\""}</item>
+        <item>{"key":"20","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Agni Nakshatram Begins\"","festivalL":\""அக்னி நக்ஷத்ரம் தொடங்கு\""}</item>
+
+        <item>{"key":"21","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Chitra Pournami\"","festivalL":\""சித்ரா பௌர்ணமி\""}</item>
+
+        <item>{"key":"22","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Agni Nakshatram Ends\"","festivalL":\""அக்னி நக்ஷத்ரம் முனைகள்\""}</item>
+        <item>{"key":"23","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Vaikasi Visakam\"","festivalL":\""வைகாசி விசாகம்\""}</item>
+        <item>{"key":"24","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Aadi Amavasai\"","festivalL":\""ஆடி அமாவாசை\""}</item>
+
+
+        <item>{"key":"25","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Aandal Jayanthi\"","festivalL":\""ஆண்டாள் ஜெயந்தி\""}</item>
+
+        <item>{"key":"26","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Naga Panjami\"","festivalL":\""நாக பஞ்சமி\""}</item>
+        <item>{"key":"27","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Avani Avittam\"","festivalL":\""ஆவணி அவிட்டம்\""}</item>
+
+        <item>{"key":"28","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Gayathri Japam\"","festivalL":\""காயத்ரி ஜெபம்\""}</item>
+        <item>{"key":"29","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Aadi Perukku\"","festivalL":\""ஆடிப்பெருக்கு\""}</item>
+
+        <item>{"key":"30","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Varalakshmi Nonbu\"","festivalL":\""வரலட்சுமி நோன்பு\""}</item>
+        <item>{"key":"31","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Maha Sangada Hara Chathurti\"","festivalL":\""மகா சங்கடஹர சதுர்த்தி\""}</item>
+
+        <item>{"key":"32","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Gokulastami\"","festivalL":\""கோகுலாஷ்டமி\""}</item>
+        <item>{"key":"33","highlight":"1","is_holiday":"1","icon":"ic_holiday_ganesha","festival":\""Vinayagar Chathurthi\"","festivalL":\""விநாயகர் சதுர்த்தி\""}</item>
+
+        <item>{"key":"34","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Onam\"","festivalL":\""ஓணம்\""}</item>
+        <item>{"key":"35","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Maha Bharani\"","festivalL":\""மஹா பரணி\""}</item>
+        <item>{"key":"36","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Ashtami Rohini\"","festivalL":\""அஷ்டமி ரோகினி\""}</item>
+
+        <item>{"key":"37","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Magha Shraddha\"","festivalL":\""மக்ஹா ஸ்ராத்த\""}</item>
+
+        <item>{"key":"38","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Mahalaya Amavasai\"","festivalL":\""மகாளய அமாவாசை\""}</item>
+        <item>{"key":"39","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Navarathiri\"","festivalL":\""நவராத்திரி\""}</item>
+
+        <item>{"key":"40","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Ayutha Poojai\"","festivalL":\""ஆயுத பூஜை\""}</item>
+        <item>{"key":"41","highlight":"1","is_holiday":"1","icon":"ic_holiday_saraswathi_pooja","festival":\""Saraswati Poojai\"","festivalL":\""சரசுவதி பூஜை\""}</item>
+        <item>{"key":"42","highlight":"1","is_holiday":"1","icon":"ic_holiday_durga_pooja","festival":\""Vijaya Dasami\"","festivalL":\""விஜயதசமி\""}</item>
+        <item>{"key":"43","highlight":"1","is_holiday":"1","icon":"ic_holiday_diwlai","festival":\""Deepavali\"","festivalL":\""தீபாவளி\""}</item>
+        <item>{"key":"44","highlight":"0","is_holiday":"0","icon":"ic_holiday_lakshmi","festival":\""Lakshmi Pooja\"","festivalL":\""லக்ஷ்மி பூஜை\""}</item>
+
+        <item>{"key":"45","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Soorasamharam\"","festivalL":\""சூரசம்ஹாரம்\""}</item>
+        <item>{"key":"46","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Subrahmanya Sashti\"","festivalL":\""சுப்பிரமணிய சஷ்டி\""}</item>
+        <item>{"key":"47","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Karthigai Deepam\"","festivalL":\""கார்த்திகை தீபம்\""}</item>
+        <item>{"key":"48","highlight":"0","is_holiday":"0","icon":"ic_holiday_hanuman","festival":\""Hanumath Jayanthi\"","festivalL":\"" ஹனுமத் ஜெயந்தி\""}</item>
+        <item>{"key":"49","highlight":"1","is_holiday":"0","icon":"NAME","festival":\""Vaikunda Ekadashi\"","festivalL":\""வைகுண்ட ஏகாதசி\""}</item>
+        <item>{"key":"50","highlight":"1","is_holiday":"1","icon":"ic_holiday_india","festival":\""Suthanthira Dhinam\"","festivalL":\""சுதந்திர தினம்\""}</item>
+
+        <item>{"key":"51","highlight":"1","is_holiday":"1","icon":"ic_holiday_gandhi_jayanthi","festival":\""Gandhi Jayanti\"","festivalL":\""காந்தி ஜெயந்தி\""}</item>
+
+        <item>{"key":"52","highlight":"0","is_holiday":"1","icon":"NAME","festival":\""Buddha Purnima\"","festivalL":\""புத்த பூர்ணிமா\""}</item>
+
+        <item>{"key":"53","highlight":"1","is_holiday":"1","icon":"ic_holiday_christmas","festival":\""Christmas\"","festivalL":\""கிறிஸ்துமஸ்\""}</item>
+        <item>{"key":"54","highlight":"1","is_holiday":"1","icon":"ic_holiday_good_friday","festival":\""Punitha Velli\"","festivalL":\""புனித வெள்ளி\""}</item>
+
+        <item>{"key":"55","highlight":"0","is_holiday":"1","icon":"NAME","festival":\""Guru Nanak Jayanthi\"","festivalL":\""குரு நானக் பிறந்த ஜெயந்தி\""}</item>
+
+        <item>{"key":"56","highlight":"0","is_holiday":"1","icon":"NAME","festival":\""Eid ul-Fitr (Ramzan)\"","festivalL":\""ஈத் உல்-பித்ர் (ரம்ஜான்)\""}</item>
+
+        <item>{"key":"57","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Eid al-Adha (Bakrid)\"","festivalL":\""பக்ரீத்\""}</item>
+        <item>{"key":"58","highlight":"0","is_holiday":"1","icon":"NAME","festival":\""Mahavir Swami Jayanti\"","festivalL":\""மஹாவீர் சுவாமி ஜெயந்தி\""}</item>
+        <item>{"key":"59","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Muharram\"","festivalL":\""முஹர்ரம்\""}</item>
+        <item>{"key":"60","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Prophet Mohammad's Birthday (Id-e-Milad)\"","festivalL":\""ஐடி-இ-மீலாது\""}</item>
+        <item>{"key":"61","highlight":"1","is_holiday":"1","icon":"ic_holiday_holi","festival":\""Holi\"","festivalL":\""ஹோலி\""}</item>
+        <item>{"key":"62","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Easter\"","festivalL":\""ஈஸ்டர்\""}</item>
+
+
+        <item>{"key":"63","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Thiruvalluvar Dhinam\"","festivalL":\""திருவள்ளுவர் தினம்\""}</item>
+        <item>{"key":"64","highlight":"0","is_holiday":"0","icon":"ic_holiday_shivaji_maharaj","festival":\""Chhatrapati Shivaji Jayanthi\"","festivalL":\""சத்ரபதி சிவாஜி ஜெயந்தி\""}</item>
+        <item>{"key":"65","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Ambedkar Jayanthi\"","festivalL":\""அம்பேத்கர் ஜெயந்தி\""}</item>
+        <item>{"key":"66","highlight":"1","is_holiday":"1","icon":"NAME","festival":\""Thozhilargal Dhinam\"","festivalL":\""தொழிலாளர்கள் தினம்\""}</item>
+        <item>{"key":"67","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Maharastra Dhinam\"","festivalL":\""மகாராஷ்டிரா தினம்\""}</item>
+        <item>{"key":"68","highlight":"1","is_holiday":"1","icon":"ic_holiday_raksha_bandha","festival":\""Raksha Bandha\"","festivalL":\""ரக்ஷா பந்தன்\""}</item>
+        <item>{"key":"69","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Rishi Panjami\"","festivalL":\""ரிஷி பஞ்சமி\""}</item>
+        <item>{"key":"70","highlight":"0","is_holiday":"0","icon":"NAME","festival":\""Hanuman Jayanthi\"","festivalL":\""ஹனுமன் ஜெயந்தி\""}</item>
+
+
+    </string-array>
+    <string-array name="holiday_mapping_arr">
+        <item>{"day":"Monday","date":\""January 01\"","holiday":\""New Year's Day\"","comment":\""Several states\"","lholiday":\""புத்தாண்டு தினம்\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Tuesday","date":\""January 02\"","holiday":\""Mannam Jayanthi\"","comment":\""Kerala Only\"","lholiday":\""Mannam ஜெயந்தி\"","lcomment":\""கேரளா மட்டும்\""}</item>
+        <item>{"day":"Friday","date":\""January 05\"","holiday":\""Guru Gobind Singh Jayanti\"","comment":\""Uttar Pradesh, Uttarkhand\"","lholiday":\""குரு கோபிந்த் சிங் ஜெயந்தி\"","lcomment":\""உத்தரப் பிரதேசம், Uttarkhand\""}</item>
+        <item>{"day":"Friday","date":\""January 12\"","holiday":\""Birthday of Swami Vivekananda\"","comment":\""West Bengal only\"","lholiday":\""சுவாமி விவேகானந்தர் பிறந்த நாள்\"","lcomment":\""மேற்கு வங்காளம் மட்டும்\""}</item>
+        <item>{"day":"Sunday","date":\""January 14\"","holiday":\""Bhogi\"","comment":\""Andhra Pradesh, Telangana\"","lholiday":\""Bhogi\"","lcomment":\""ஆந்திரப் பிரதேசம், தெலுங்கானா\""}</item>
+        <item>{"day":"Sunday","date":\""January 14\"","holiday":\""Pongal\"","comment":\""Also known as Makar Sankranti, Lohri, Bihu, Hadaga, Poki\"","lholiday":\""பொங்கல்\"","lcomment":\""மேலும் மகர சங்கராந்தி, லோரி, Bihu, Hadaga, Poki என அழைக்கப்படும்\""}</item>
+        <item>{"day":"Sunday","date":\""January 14\"","holiday":\""Sankranti\"","comment":\""Several states\"","lholiday":\""சங்கராந்தி\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Monday","date":\""January 15\"","holiday":\""Thiruvalluvar Day\"","comment":\""Puducherry, Tamil Nadu\"","lholiday":\""திருவள்ளுவர் தினம்\"","lcomment":\""புதுச்சேரி, தமிழ்நாடு\""}</item>
+        <item>{"day":"Monday","date":\""January 15\"","holiday":\""Sankranti\"","comment":\""Several states\"","lholiday":\""சங்கராந்தி\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Tuesday","date":\""January 16\"","holiday":\""Uzhavar Tirunal\"","comment":\""Puducherry, Tamil Nadu only\"","lholiday":\""உழவர் திருநாள்\"","lcomment":\""புதுச்சேரி, தமிழ்நாடு மட்டும்\""}</item>
+        <item>{"day":"Wednesday","date":\""January 17\"","holiday":\""Sonam Lhochar\"","comment":\""Sikkim only. Tamang New Year\"","lholiday":\""சோனம் Lhochar\"","lcomment":\""சிக்கிம் மட்டுமே. Tamang, புத்தாண்டு\""}</item>
+        <item>{"day":"Monday","date":\""January 22\"","holiday":\""Vasant Panchami\"","comment":\""Several states\"","lholiday":\""வசந்த் பஞ்சமி\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Tuesday","date":\""January 23\"","holiday":\""Netaji Subhas Chandra Bose Jayanti\"","comment":\""Assam, Odisha, Tripura, West Bengal. Birthday of a prominent leader in the Indian freedom movement\"","lholiday":\""நேதாஜி சுபாஷ் சந்திர போஸ் ஜெயந்தி\"","lcomment":\""அசாம், ஒடிசா, திரிபுரா, மேற்கு வங்காளம். இந்திய சுதந்திரப் போராட்டத்தில் ஒரு முக்கியமான தலைவர் பிறந்தநாள்\""}</item>
+        <item>{"day":"Wednesday","date":\""January 24\"","holiday":\""Sir Chhotu Ram Jayanti\"","comment":\""Haryana only\"","lholiday":\""சர் சோட்டு ராம் ஜெயந்தி\"","lcomment":\""அரியானா மட்டுமே\""}</item>
+        <item>{"day":"Thursday","date":\""January 25\"","holiday":\""Statehood Day\"","comment":\""Himachal Pradesh only\"","lholiday":\""தேசியதின நாள்\"","lcomment":\""இமாசலப் பிரதேசம் மட்டுமே\""}</item>
+        <item>{"day":"Friday","date":\""January 26\"","holiday":\""Republic Day\"","comment":\""Commemorates the establishment of the Constitution of India\"","lholiday":\""குடியரசு தினம்\"","lcomment":\""இந்திய அரசியலமைப்பின் ஸ்தாபனத்தின் நீங்காத\""}</item>
+        <item>{"day":"Wednesday","date":\""January 31\"","holiday":\""Me-dam-me-phi\"","comment":\""Assam. Ancestor festival\"","lholiday":\""என்னை-டேம் என்னை-ஃபை\"","lcomment":\""அசாம். மூதாதையர் திருவிழா\""}</item>
+        <item>{"day":"Wednesday","date":\""January 31\"","holiday":\""Guru Ravidas Birthday\"","comment":\""Haryana, Himachal Pradesh, Punjab only. Full moon of Magh\"","lholiday":\""குரு ரவிதாஸ் பிறந்தநாள்\"","lcomment":\""ஹரியானா, இமாச்சலப் பிரதேசம், பஞ்சாப் மட்டுமே. Magh முழு நிலவு\""}</item>
+        <item>{"day":"Saturday","date":\""February 10\"","holiday":\""Maharshi Dayanand Saraswati Jayanti\"","comment":\""Haryana only\"","lholiday":\""மகரிஷி தயானந்த சரஸ்வதி ஜெயந்தி\"","lcomment":\""அரியானா மட்டுமே\""}</item>
+        <item>{"day":"Tuesday","date":\""February 13\"","holiday":\""Maha Shivratri\"","comment":\""Celebrated on the 13th night/14th day in the Krishna Paksha\"","lholiday":\""மஹா சிவராத்திரி\"","lcomment":\""கிருஷ்ணா பக்ஷத்தில் 13 வது இரவு / 14 ஆம் நாள் அன்று கொண்டாடப்படுகிறது\""}</item>
+        <item>{"day":"Wednesday","date":\""February 14\"","holiday":\""Maha Shivratri\"","comment":\""Several states\"","lholiday":\""மஹா சிவராத்திரி\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Thursday","date":\""February 15\"","holiday":\""Lui-Ngai-Ni\"","comment":\""Manipur\"","lholiday":\""Lui-வெள்ளப்பெருக்கு-நி\"","lcomment":\""மணிப்பூர்\""}</item>
+        <item>{"day":"Friday","date":\""February 16\"","holiday":\""Losar\"","comment":\""Sikkim only. Tibetan New Year\"","lholiday":\""Losar\"","lcomment":\""சிக்கிம் மட்டுமே. திபெத்திய புத்தாண்டு\""}</item>
+        <item>{"day":"Monday","date":\""February 19\"","holiday":\""Chhatrapati Shivaji Maharaj Jayanti\"","comment":\""Maharashtra only\"","lholiday":\""சத்ரபதி சிவாஜி மகாராஜ் ஜெயந்தி\"","lcomment":\""மகாராஷ்டிரா மட்டுமே\""}</item>
+        <item>{"day":"Thursday","date":\""March 01\"","holiday":\""Holi\"","comment":\""Jammu Province only\"","lholiday":\""ஹோலி\"","lcomment":\""ஜம்மு மாகாணம் மட்டுமே\""}</item>
+        <item>{"day":"Thursday","date":\""March 01\"","holiday":\""Doljatra\"","comment":\""Holi Dahan\"","lholiday":\""Doljatra\"","lcomment":\""ஹோலி தகனம்\""}</item>
+        <item>{"day":"Friday","date":\""March 02\"","holiday":\""Holi\"","comment":\""\"","lholiday":\""ஹோலி\"","lcomment":\""\""}</item>
+        <item>{"day":"Saturday","date":\""March 03\"","holiday":\""Yaosang 2nd day\"","comment":\""Manipur.\"","lholiday":\""Yaosang 2 வது நாள்\"","lcomment":\""மணிப்பூர்.\""}</item>
+        <item>{"day":"Sunday","date":\""March 18\"","holiday":\""Ugadi\"","comment":\""Telugu and Kannada New Year\"","lholiday":\""உகாதி\"","lcomment":\""தெலுங்கு மற்றும் கன்னடம் புத்தாண்டு\""}</item>
+        <item>{"day":"Sunday","date":\""March 18\"","holiday":\""Cheti Chand\"","comment":\""Gujarat only.\"","lholiday":\""Cheti சந்த்\"","lcomment":\""குஜராத் மட்டுமே.\""}</item>
+        <item>{"day":"Sunday","date":\""March 18\"","holiday":\""Gudi Padwa\"","comment":\""Telugu and Kannada New Year. Goa\"","lholiday":\""குடி பட்வாவுடன்\"","lcomment":\""தெலுங்கு மற்றும் கன்னடம் புத்தாண்டு. கோவா\""}</item>
+        <item>{"day":"Sunday","date":\""March 18\"","holiday":\""Sajibu Nongmapanba\"","comment":\""Manipur. 1st day of the Month of Sajibu\"","lholiday":\""Sajibu Nongmapanba\"","lcomment":\""மணிப்பூர். Sajibu மாதம் 1 ஆம் நாள்\""}</item>
+        <item>{"day":"Sunday","date":\""March 18\"","holiday":\""1st Navratra\"","comment":\""Jammu and Kashmir only\"","lholiday":\""1st நவராத்திரி\"","lcomment":\""ஜம்மு காஷ்மீர் மட்டுமே\""}</item>
+        <item>{"day":"Monday","date":\""March 19\"","holiday":\""Cheti Chand\"","comment":\""Rajashtan, Uttarkhand\"","lholiday":\""Cheti சந்த்\"","lcomment":\""Rajashtan, Uttarkhand\""}</item>
+        <item>{"day":"Wednesday","date":\""March 21\"","holiday":\""Hazrat Ali's Birthday\"","comment":\""Uttar Pradesh only. Son in law of Prophet Muhammad\"","lholiday":\""ஹஸ்ரத் அலியின் பிறந்தநாள்\"","lcomment":\""உத்தரப் பிரதேசம் மட்டுமே. நபிகள் நாயகம் மருமகனான\""}</item>
+        <item>{"day":"Thursday","date":\""March 22\"","holiday":\""Bihar Divas\"","comment":\""Bihar Only\"","lholiday":\""பீகார் திவாஸ்\"","lcomment":\""பீகார் மட்டும்\""}</item>
+        <item>{"day":"Friday","date":\""March 23\"","holiday":\""Shaheedi Diwas of Bhagat Singh, Rajguru &amp; Sukhdev\"","comment":\""Haryana only\"","lholiday":\""பகத் சிங், ராஜ்குரு மற்றும் சுக்தேவ் இன் Shaheedi Diwas\"","lcomment":\""அரியானா மட்டுமே\""}</item>
+        <item>{"day":"Friday","date":\""March 23\"","holiday":\""Shahidi Divas S. Bhagat Singh Ji\"","comment":\""Punjab only\"","lholiday":\""Shahidi திவாஸ் எஸ் பகத் சிங் ஜி\"","lcomment":\""பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Saturday","date":\""March 24\"","holiday":\""Ashoka's Birth Anniversary\"","comment":\""Bihar only\"","lholiday":\""அசோகா பிறந்தநாளன்று\"","lcomment":\""பீகார் மட்டுமே\""}</item>
+        <item>{"day":"Sunday","date":\""March 25\"","holiday":\""Ram Navami\"","comment":\""Celebrates the birth of Lord Rama to King Dasharatha of Ayodhya\"","lholiday":\""ராம நவமி\"","lcomment":\""அயோத்தியின் ஆண்ட மன்னன் தசரதரின் க்கு ராமர் பிறந்த கொண்டாடுகிறது\""}</item>
+        <item>{"day":"Monday","date":\""March 26\"","holiday":\""Sri Rama Navami\"","comment":\""Celebrates the birth of Lord Rama to King Dasharatha of Ayodhya\"","lholiday":\""ஸ்ரீ ராம நவமி\"","lcomment":\""அயோத்தியின் ஆண்ட மன்னன் தசரதரின் க்கு ராமர் பிறந்த கொண்டாடுகிறது\""}</item>
+        <item>{"day":"Thursday","date":\""March 29\"","holiday":\""Mahavir Jayanti\"","comment":\""The most important religious holiday in Jainism\"","lholiday":\""மஹாவீர் ஜெயந்தி\"","lcomment":\""ஜெயினிசத்தில் மிகவும் முக்கியமான மத விடுமுறை\""}</item>
+        <item>{"day":"Thursday","date":\""March 29\"","holiday":\""Maundy Thursday\"","comment":\""Kerala only\"","lholiday":\""மாண்டி வியாழக்கிழமை\"","lcomment":\""கேரளா மட்டும்\""}</item>
+        <item>{"day":"Friday","date":\""March 30\"","holiday":\""Good Friday\"","comment":\""Friday before Easter Sunday\"","lholiday":\""புனித வெள்ளி\"","lcomment":\""ஈஸ்டர் ஞாயிறு முன் வெள்ளிக்கிழமை\""}</item>
+        <item>{"day":"Sunday","date":\""April 01\"","holiday":\""Bank Holiday\"","comment":\""Banks only. Annual accounts closing\"","lholiday":\""வங்கி விடுமுறை\"","lcomment":\""வங்கிகள் மட்டுமே. வருடாந்த கணக்குகள் நிறைவு\""}</item>
+        <item>{"day":"Sunday","date":\""April 01\"","holiday":\""Odisha Day\"","comment":\""Odisha only. Utkal Divas\"","lholiday":\""ஒடிசா நாள்\"","lcomment":\""ஒடிசா மட்டுமே. உத்கல் திவாஸ்\""}</item>
+        <item>{"day":"Thursday","date":\""April 05\"","holiday":\""Babu Jagjivan Ram Birthday\"","comment":\""Andhra Pradesh, Telangana only\"","lholiday":\""பாபு ஜக்ஜீவன் ராம் பிறந்தநாள்\"","lcomment":\""ஆந்திரப் பிரதேசம், தெலுங்கானா மட்டுமே\""}</item>
+        <item>{"day":"Friday","date":\""April 13\"","holiday":\""Bohag Bihu Holiday\"","comment":\""Assam only\"","lholiday":\""Bohag Bihu விடுமுறை\"","lcomment":\""அசாம் மட்டுமே\""}</item>
+        <item>{"day":"Saturday","date":\""April 14\"","holiday":\""Biju Festival\"","comment":\""Tripura only\"","lholiday":\""பிஜு விழா\"","lcomment":\""திரிபுரா மட்டுமே\""}</item>
+        <item>{"day":"Saturday","date":\""April 14\"","holiday":\""Bohag Bihu\"","comment":\""Assamese New Year. Arunachal Pradesh, Assam\"","lholiday":\""Bohag Bihu\"","lcomment":\""அஸ்ஸாமி புத்தாண்டு. அருணாச்சல பிரதேசம், அசாம்\""}</item>
+        <item>{"day":"Saturday","date":\""April 14\"","holiday":\""Dr Ambedkar Jayanti\"","comment":\""Birthday of Bhimrao Ramji Ambedekar\"","lholiday":\""டாக்டர் அம்பேத்கர் ஜெயந்தி\"","lcomment":\""பீம்ராவ் ராம்ஜி Ambedekar பிறந்த நாள்\""}</item>
+        <item>{"day":"Saturday","date":\""April 14\"","holiday":\""Maha Vishuba Sankranti\"","comment":\""Odisha\"","lholiday":\""மகா Vishuba சங்கராந்தி\"","lcomment":\""ஒடிசா\""}</item>
+        <item>{"day":"Saturday","date":\""April 14\"","holiday":\""Tamil New Year\"","comment":\""Puthandu. Tamil Nadu only\"","lholiday":\""தமிழ் புத்தாண்டு\"","lcomment":\""புத்தாண்டு. தமிழ்நாடு மட்டும்\""}</item>
+        <item>{"day":"Saturday","date":\""April 14\"","holiday":\""Vaisakhi\"","comment":\""Several states\"","lholiday":\""Vaisakhi\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Sunday","date":\""April 15\"","holiday":\""Bengali New Year\"","comment":\""Tripura, West Bengal only\"","lholiday":\""பெங்காலி புத்தாண்டு\"","lcomment":\""திரிபுரா, மேற்கு வங்காளம் மட்டும்\""}</item>
+        <item>{"day":"Sunday","date":\""April 15\"","holiday":\""Himachal Day\"","comment":\""Himachal Pradesh only. The province of Himachal Pradesh was created on 15 April 1948\"","lholiday":\""ஹிமாச்சல நாள்\"","lcomment":\""இமாசலப் பிரதேசம் மட்டுமே. இமாசலப் பிரதேசம் மாகாணத்தில் ஏப்ரல் 1948 15 அன்று உருவாக்கப்பட்டது\""}</item>
+        <item>{"day":"Sunday","date":\""April 15\"","holiday":\""Vishu\"","comment":\""Kerala Only. First day of Tulu calendar\"","lholiday":\""விஷு\"","lcomment":\""கேரளா மட்டும். துளு நாட்காட்டியில் முதல் நாள்\""}</item>
+        <item>{"day":"Wednesday","date":\""April 18\"","holiday":\""Parashurama Jayanti\"","comment":\""Gujarat, Haryana, Himachal Pradesh, Punjab\"","lholiday":\""பரசுராமர் ஜெயந்தி\"","lcomment":\""குஜராத், ஹரியானா, ஹிமாச்சல பிரதேசம், பஞ்சாப்\""}</item>
+        <item>{"day":"Wednesday","date":\""April 18\"","holiday":\""Basava Jayanthi\"","comment":\""Karnataka only. The most important festival of the Lingayats. 3rd Vaiskha\"","lholiday":\""Basava ஜெயந்தி\"","lcomment":\""கர்நாடக மட்டுமே. Lingayats மிக முக்கியமான திருவிழா. 3 வது Vaiskha\""}</item>
+        <item>{"day":"Saturday","date":\""April 21\"","holiday":\""Garia Puja\"","comment":\""Tripura only\"","lholiday":\""Garia பூஜை\"","lcomment":\""திரிபுரா மட்டுமே\""}</item>
+        <item>{"day":"Monday","date":\""April 30\"","holiday":\""Buddha Purnima\"","comment":\""Birth of Buddha\"","lholiday":\""புத்தர் பூர்ணிமா\"","lcomment":\""புத்தர் பிறப்பு\""}</item>
+        <item>{"day":"Tuesday","date":\""May 01\"","holiday":\""Maharashtra Day\"","comment":\""Maharashtra only. Commemorates the formation of the state of Maharashtra on 1 May 1960\"","lholiday":\""மகாராஷ்டிரா தினம்\"","lcomment":\""மகாராஷ்டிரா மட்டுமே. 1 மே 1960 மகாராஷ்டிரா மாநிலம் உருவாக்கப்பட்டு நீங்காத\""}</item>
+        <item>{"day":"Tuesday","date":\""May 01\"","holiday":\""May Day\"","comment":\""Many states\"","lholiday":\""மே தினம்\"","lcomment":\""பல மாநிலங்களில்\""}</item>
+        <item>{"day":"Wednesday","date":\""May 09\"","holiday":\""Birthday of Rabindra Nath Tagore\"","comment":\""Tripura, West Bengal\"","lholiday":\""ரவீந்திர நாத் தாகூரின் பிறந்தநாள்\"","lcomment":\""திரிபுரா, மேற்கு வங்காளம்\""}</item>
+        <item>{"day":"Wednesday","date":\""May 16\"","holiday":\""State Day\"","comment":\""Sikkim only\"","lholiday":\""மாநில நாள்\"","lcomment":\""சிக்கிம் மட்டுமே\""}</item>
+        <item>{"day":"Saturday","date":\""May 26\"","holiday":\""Birthday of Kazi Nazrul Islam\"","comment":\""Tripura only.\"","lholiday":\""காஸி நஜ்ருல் இஸ்லாமியம் பிறந்த நாள்\"","lcomment":\""திரிபுரா மட்டுமே.\""}</item>
+        <item>{"day":"Friday","date":\""June 08\"","holiday":\""Jumat-ul-Wida\"","comment":\""Last Friday of Ramadam\"","lholiday":\""Jumat-உல்-Wida\"","lcomment":\""Ramadam கடைசி வெள்ளிக் கிழமையில்\""}</item>
+        <item>{"day":"Monday","date":\""June 11\"","holiday":\""Shab-I-Qadar\"","comment":\""Jammu and Kashmir. Celebrated on the 27th day of Ramadan\"","lholiday":\""ஷப்-ஐ-Qadar\"","lcomment":\""ஜம்மு காஷ்மீர். ரமலான் 27 நாள் அன்று கொண்டாடப்படுகிறது\""}</item>
+        <item>{"day":"Thursday","date":\""June 14\"","holiday":\""Pahili Raja\"","comment":\""Odisha\"","lholiday":\""Pahili ராஜா\"","lcomment":\""ஒடிசா\""}</item>
+        <item>{"day":"Friday","date":\""June 15\"","holiday":\""Idul Fitr\"","comment":\""Many states\"","lholiday":\""Idul பித்ர்\"","lcomment":\""பல மாநிலங்களில்\""}</item>
+        <item>{"day":"Friday","date":\""June 15\"","holiday":\""Raja Sankranti\"","comment":\""Odisha only\"","lholiday":\""ராஜா சங்கராந்தி\"","lcomment":\""ஒடிசா மட்டுமே\""}</item>
+        <item>{"day":"Saturday","date":\""June 16\"","holiday":\""Idul Fitr\"","comment":\""Several states\"","lholiday":\""Idul பித்ர்\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Saturday","date":\""June 16\"","holiday":\""Guru Arjun Dev Martyrdom day\"","comment":\""Punjab Only\"","lholiday":\""குரு அர்ஜூன் தேவ் வீர மரணம் நாள்\"","lcomment":\""பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Saturday","date":\""June 16\"","holiday":\""Maharana Pratap Jayanti\"","comment":\""Haryana, Himachal Pradesh, Rajashtan only\"","lholiday":\""மகாராணா பிரதாப் ஜெயந்தி\"","lcomment":\""ஹரியானா, இமாச்சலப் பிரதேசம், Rajashtan மட்டுமே\""}</item>
+        <item>{"day":"Sunday","date":\""June 17\"","holiday":\""Idul Fitr Holiday\"","comment":\""Telangana\"","lholiday":\""Idul பித்ர் விடுமுறை\"","lcomment":\""தெலுங்கானா\""}</item>
+        <item>{"day":"Thursday","date":\""June 28\"","holiday":\""Sant Guru Kabir Jayanti\"","comment":\""Gazetted holiday in Haryana, Himachal Pradesh, Punjab.\"","lholiday":\""சாண்ட் குரு கபீர் ஜெயந்தி\"","lcomment":\""ஹரியானா, இமாச்சலப் பிரதேசம், பஞ்சாப் ல் வர்த்தமானியில் விடுமுறை நாளாகும்.\""}</item>
+        <item>{"day":"Thursday","date":\""July 05\"","holiday":\""Guru Hargobind Ji's Birthday\"","comment":\""Jammu and Kashmir\"","lholiday":\""குரு Hargobind ஜி பிறந்தநாள்\"","lcomment":\""ஜம்மு காஷ்மீர்\""}</item>
+        <item>{"day":"Friday","date":\""July 13\"","holiday":\""Martyr's Day\"","comment":\""Jammu and Kashmir only\"","lholiday":\""தியாகிகள் தினம்\"","lcomment":\""ஜம்மு காஷ்மீர் மட்டுமே\""}</item>
+        <item>{"day":"Saturday","date":\""July 14\"","holiday":\""Ratha Yatra\"","comment":\""Odisha\"","lholiday":\""ரத்தா யாத்திரை\"","lcomment":\""ஒடிசா\""}</item>
+        <item>{"day":"Friday","date":\""July 20\"","holiday":\""Kharchi Puja\"","comment":\""Tripura only\"","lholiday":\""Kharchi பூஜை\"","lcomment":\""திரிபுரா மட்டுமே\""}</item>
+        <item>{"day":"Tuesday","date":\""July 31\"","holiday":\""Martyrdom Day of Shaheed Udham Singh\"","comment":\""Haryana, Punjab only\"","lholiday":\""ஷாகீத் உத்தம் சிங் வீரமரணம் நாள்\"","lcomment":\""அரியானா, பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Saturday","date":\""August 04\"","holiday":\""Ker Puja\"","comment":\""Tripura only\"","lholiday":\""Ker பூஜை\"","lcomment":\""திரிபுரா மட்டுமே\""}</item>
+        <item>{"day":"Monday","date":\""August 06\"","holiday":\""Bonalu\"","comment":\""\"","lholiday":\""Bonalu\"","lcomment":\""\""}</item>
+        <item>{"day":"Saturday","date":\""August 11\"","holiday":\""Karkkadaka Vavu\"","comment":\""Kerala\"","lholiday":\""Karkkadaka Vavu\"","lcomment":\""கேரளா\""}</item>
+        <item>{"day":"Monday","date":\""August 13\"","holiday":\""Patriot's Day\"","comment":\""Manipur\"","lholiday":\""நாட்டுப்பற்று தினம்\"","lcomment":\""மணிப்பூர்\""}</item>
+        <item>{"day":"Wednesday","date":\""August 15\"","holiday":\""Independence Day\"","comment":\""\"","lholiday":\""சுதந்திர தினம்\"","lcomment":\""\""}</item>
+        <item>{"day":"Friday","date":\""August 17\"","holiday":\""Parsi New Year\"","comment":\""Jamshed Navroz. Gujarat, Mumbai Only\"","lholiday":\""பார்சி புத்தாண்டு\"","lcomment":\""ஜாம்ஷெட் Navroz. குஜராத், மும்பை மட்டும்\""}</item>
+        <item>{"day":"Wednesday","date":\""August 22\"","holiday":\""Idul Juha\"","comment":\""Bakrid. Many states\"","lholiday":\""Idul யுஹா\"","lcomment":\""பக்ரீத். பல மாநிலங்களில்\""}</item>
+        <item>{"day":"Thursday","date":\""August 23\"","holiday":\""Idul Juha Holiday\"","comment":\""Jammu and Kashmir\"","lholiday":\""Idul யுஹா விடுமுறை\"","lcomment":\""ஜம்மு காஷ்மீர்\""}</item>
+        <item>{"day":"Friday","date":\""August 24\"","holiday":\""First Onam\"","comment":\""Kerala only. Harvest Festival\"","lholiday":\""முதல் ஓணம்\"","lcomment":\""கேரள மட்டுமே. அறுவடை திருநாள்\""}</item>
+        <item>{"day":"Saturday","date":\""August 25\"","holiday":\""Thiruvonam\"","comment":\""Kerala only. Harvest Festival\"","lholiday":\""Thiruvonam\"","lcomment":\""கேரள மட்டுமே. அறுவடை திருநாள்\""}</item>
+        <item>{"day":"Sunday","date":\""August 26\"","holiday":\""Raksha Bandhan\"","comment":\""Gujarat, Madhya Pradesh, Rajasthan, Uttar Pradesh only. Shravana Purnima\"","lholiday":\""ரக்ஷா பந்தன்\"","lcomment":\""குஜராத், மத்தியப் பிரதேசம், ராஜஸ்தான், உத்தரப் பிரதேசம் மட்டுமே.ஷ்ராவனா பூர்ணிமா\""}</item>
+        <item>{"day":"Sunday","date":\""August 26\"","holiday":\""Third Onam\"","comment":\""Kerala only. Harvest Festival\"","lholiday":\""மூன்றாம் ஓணம்\"","lcomment":\""கேரள மட்டுமே. அறுவடை திருநாள்\""}</item>
+        <item>{"day":"Monday","date":\""August 27\"","holiday":\""Sree Narayana Guru Jayanti\"","comment":\""Kerala only\"","lholiday":\""ஸ்ரீ நாராயண குரு ஜெயந்தி\"","lcomment":\""கேரளா மட்டும்\""}</item>
+        <item>{"day":"Tuesday","date":\""August 28\"","holiday":\""Ayankali Jayanthi\"","comment":\""Kerala only\"","lholiday":\""Ayankali ஜெயந்தி\"","lcomment":\""கேரளா மட்டும்\""}</item>
+        <item>{"day":"Saturday","date":\""September 01\"","holiday":\""Parkash Utsav Sri Guru Granth Sahib Ji\"","comment":\""Punjab only\"","lholiday":\""பிரகாஷ் உத்சவ் ஸ்ரீ குரு கிரந்த் சாஹிப் ஜி\"","lcomment":\""பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Sunday","date":\""September 02\"","holiday":\""Sreekrishna Jayanthi\"","comment":\""Kerala, Odisha. Celebrates the birth of Lord Shri Krishna\"","lholiday":\""Sreekrishna ஜெயந்தி\"","lcomment":\""கேரளா, ஒடிசா. கிருஷ்ண பரமாத்மா பிறந்த கொண்டாடுகிறது\""}</item>
+        <item>{"day":"Sunday","date":\""September 02\"","holiday":\""Janmashtami\"","comment":\""Tamil Nadu. Celebrates the birth of Lord Shri Krishna\"","lholiday":\""ஜன்மாஷ்டமி\"","lcomment":\""தமிழ்நாடு. கிருஷ்ண பரமாத்மா பிறந்த கொண்டாடுகிறது\""}</item>
+        <item>{"day":"Monday","date":\""September 03\"","holiday":\""Janmashtami\"","comment":\""Celebrates the birth of Lord Shri Krishna\"","lholiday":\""ஜன்மாஷ்டமி\"","lcomment":\""கிருஷ்ண பரமாத்மா பிறந்த கொண்டாடுகிறது\""}</item>
+        <item>{"day":"Tuesday","date":\""September 11\"","holiday":\""Muharram\"","comment":\""Observed mainly by the Shia Muslim community\"","lholiday":\""முஹர்ரம்\"","lcomment":\""ஷியா முஸ்லீம் சமூகம் முக்கியமாக கண்காணிப்பு\""}</item>
+        <item>{"day":"Wednesday","date":\""September 12\"","holiday":\""Teej\"","comment":\""Haryana only\"","lholiday":\""தீஜ்\"","lcomment":\""அரியானா மட்டுமே\""}</item>
+        <item>{"day":"Wednesday","date":\""September 12\"","holiday":\""Saragarhi Day\"","comment":\""State holiday in Punjab\"","lholiday":\""சராகி நாள்\"","lcomment":\""பஞ்சாபில் தேசிய விடுமுறையாக\""}</item>
+        <item>{"day":"Thursday","date":\""September 13\"","holiday":\""Ganesh Chaturthi\"","comment":\""Varasiddhi Vinayaka Vrata\"","lholiday":\""விநாயகர் சதுர்த்தி\"","lcomment":\""Varasiddhi விநாயகா விரதம்\""}</item>
+        <item>{"day":"Friday","date":\""September 14\"","holiday":\""Nuakhai\"","comment":\""Odisha only. Day after Ganesh Chaturthi\"","lholiday":\""Nuakhai\"","lcomment":\""ஒடிசா மட்டுமே. தினத்திற்குப் பின்னர் விநாயகர் சதுர்த்தி\""}</item>
+        <item>{"day":"Tuesday","date":\""September 18\"","holiday":\""Birthday of Baba Sri Chand Ji\"","comment":\""Punjab only\"","lholiday":\""பாபா ஸ்ரீ சந்த் கின் பிறந்தநாள்\"","lcomment":\""பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Wednesday","date":\""September 19\"","holiday":\""Ramdev Jayanti and Teja Dashmi\"","comment":\""Rajasthan\"","lholiday":\""ராம்தேவ் ஜெயந்தி தேஜா தசமி\"","lcomment":\""ராஜஸ்தான்\""}</item>
+        <item>{"day":"Thursday","date":\""September 20\"","holiday":\""Muharram (10th Day)\"","comment":\""Day of Ashurah\"","lholiday":\""முஹர்ரம் (10 வது நாள்)\"","lcomment":\""Ashurah நாள்\""}</item>
+        <item>{"day":"Friday","date":\""September 21\"","holiday":\""Sree Narayana Guru Samadhi\"","comment":\""Kerala only. Marks the death of a key social reformer\"","lholiday":\""ஸ்ரீ நாராயண குரு சமாதி\"","lcomment":\""கேரள மட்டுமே. ஒரு முக்கிய சமூக சீர்திருத்தவாதி மரணம் குறிக்கிறது\""}</item>
+        <item>{"day":"Friday","date":\""September 21\"","holiday":\""Muharram\"","comment":\""Many states\"","lholiday":\""முஹர்ரம்\"","lcomment":\""பல மாநிலங்களில்\""}</item>
+        <item>{"day":"Sunday","date":\""September 23\"","holiday":\""Haryana's Heroes' Martyrdom Day\"","comment":\""Haryana only\"","lholiday":\""அரியானா ஹீரோஸ் 'வீர மரணம் நாள்\"","lcomment":\""அரியானா மட்டுமே\""}</item>
+        <item>{"day":"Friday","date":\""September 28\"","holiday":\""Birthday of S. Bhagat Singh Ji\"","comment":\""Punjab only\"","lholiday":\""எஸ் பகத் சிங் கின் பிறந்தநாள்\"","lcomment":\""பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Tuesday","date":\""October 02\"","holiday":\""Mahatma Gandhi Birthday\"","comment":\""Gandhi Jayanti\"","lholiday":\""மகாத்மா காந்தி பிறந்தநாள்\"","lcomment":\""காந்தி ஜெயந்தி\""}</item>
+        <item>{"day":"Monday","date":\""October 08\"","holiday":\""Mahalaya\"","comment":\""Karnataka, Odisha, Tripura, West Bengal only.\"","lholiday":\""Mahalaya\"","lcomment":\""கர்நாடகா, ஒடிசா, திரிபுரா, மேற்கு வங்காளம் மட்டுமே.\""}</item>
+        <item>{"day":"Tuesday","date":\""October 09\"","holiday":\""Bathukamma Starting day\"","comment":\""Nine days before Durgastami\"","lholiday":\""Bathukamma முதல் நாளில்\"","lcomment":\""Durgastami ஒன்பது நாட்களுக்கு முன்பு\""}</item>
+        <item>{"day":"Wednesday","date":\""October 10\"","holiday":\""Maharaja Agrasen Jayanati\"","comment":\""Haryana, Punjab, Rajasthan only\"","lholiday":\""மகாராஜா Agrasen Jayanati\"","lcomment":\""அரியானா, பஞ்சாப், ராஜஸ்தான் மட்டுமே\""}</item>
+        <item>{"day":"Tuesday","date":\""October 16\"","holiday":\""Maha Saptami\"","comment":\""Several states\"","lholiday":\""மகா சப்தமியின்\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Wednesday","date":\""October 17\"","holiday":\""Durgastami\"","comment":\""Several states\"","lholiday":\""Durgastami\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Thursday","date":\""October 18\"","holiday":\""Ayudha Puja\"","comment":\""Several states\"","lholiday":\""Ayudha பூஜை\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Thursday","date":\""October 18\"","holiday":\""Mahanavami\"","comment":\""Several states. Ninth Day of Dussehra\"","lholiday":\""Mahanavami\"","lcomment":\""சில மாகாணங்களில். தசரா ஒன்பதாம் நாள்\""}</item>
+        <item>{"day":"Thursday","date":\""October 18\"","holiday":\""Navami of Durga Puja\"","comment":\""Assam, Tripura,West Bengal\"","lholiday":\""துர்கா பூஜா என்ற நவமி\"","lcomment":\""அசாம், திரிபுரா, மேற்கு வங்காளம்\""}</item>
+        <item>{"day":"Thursday","date":\""October 18\"","holiday":\""Dusshera\"","comment":\""Vijaya Dashmi. Several states\"","lholiday":\""தசரா\"","lcomment":\""விஜயா தசமி. பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Friday","date":\""October 19\"","holiday":\""Durga Puja\"","comment":\""Mahastami. Odisha, Sikkim only\"","lholiday":\""துர்கா பூஜை\"","lcomment":\""Mahastami. ஒடிசா, சிக்கிம் மட்டுமே\""}</item>
+        <item>{"day":"Friday","date":\""October 19\"","holiday":\""Dussehra\"","comment":\""Dasara/Vijaya Dashami\"","lholiday":\""தசரா\"","lcomment":\""தசரா / விஜய தசமி\""}</item>
+        <item>{"day":"Saturday","date":\""October 20\"","holiday":\""Durga Puja Holiday\"","comment":\""Tripura\"","lholiday":\""துர்கா பூஜை விடுமுறை\"","lcomment":\""திரிபுரா\""}</item>
+        <item>{"day":"Monday","date":\""October 22\"","holiday":\""Durga Puja Holiday\"","comment":\""Tripura\"","lholiday":\""துர்கா பூஜை விடுமுறை\"","lcomment":\""திரிபுரா\""}</item>
+        <item>{"day":"Tuesday","date":\""October 23\"","holiday":\""Durga Puja Holiday\"","comment":\""Tripura\"","lholiday":\""துர்கா பூஜை விடுமுறை\"","lcomment":\""திரிபுரா\""}</item>
+        <item>{"day":"Wednesday","date":\""October 24\"","holiday":\""Lakshmi Puja\"","comment":\""Odisha, Tripura, West Bengal only.\"","lholiday":\""லட்சுமி பூஜை\"","lcomment":\""ஒடிசா, திரிபுரா, மேற்கு வங்காளம் மட்டுமே.\""}</item>
+        <item>{"day":"Wednesday","date":\""October 24\"","holiday":\""Maharishi Valmiki Birthday\"","comment":\""Delhi, Haryana, Karnataka, Himachal Pradesh, Punjab\"","lholiday":\""மகரிஷி வால்மீகி பிறந்தநாள்\"","lcomment":\""தில்லி, அரியானா, கர்நாடகா, இமாசலப் பிரதேசம், பஞ்சாப்\""}</item>
+        <item>{"day":"Wednesday","date":\""October 31\"","holiday":\""Sardar Vallabhbhai Patel's Birthday\"","comment":\""Gujarat only.\"","lholiday":\""சர்தார் வல்லபாய் படேல் பிறந்த நாள்\"","lcomment":\""குஜராத் மட்டுமே.\""}</item>
+        <item>{"day":"Thursday","date":\""November 01\"","holiday":\""Haryana Day\"","comment":\""Haryana only.\"","lholiday":\""அரியானா நாள்\"","lcomment":\""அரியானா மட்டுமே.\""}</item>
+        <item>{"day":"Thursday","date":\""November 01\"","holiday":\""Kannada Rajyothsava\"","comment":\""Bangalore Only. Karnataka Formation Day\"","lholiday":\""கன்னடம் ராஜ்யோத் சவா\"","lcomment":\""பெங்களூர் மட்டும். கர்நாடக உருவாக்கம் நாள்\""}</item>
+        <item>{"day":"Thursday","date":\""November 01\"","holiday":\""Kut\"","comment":\""Manipur\"","lholiday":\""கட்\"","lcomment":\""மணிப்பூர்\""}</item>
+        <item>{"day":"Tuesday","date":\""November 06\"","holiday":\""Narak Chaturdashi\"","comment":\""Karnataka\"","lholiday":\""Narak சதுர்தஷி\"","lcomment":\""கர்நாடக\""}</item>
+        <item>{"day":"Tuesday","date":\""November 06\"","holiday":\""Kali Puja\"","comment":\""Assam, Odisha, West Bengal. Festival dedicated to the Hindu goddess Kali\"","lholiday":\""காளி பூஜை\"","lcomment":\""அசாம், ஒடிசா, மேற்கு வங்காளம். விழா இந்து மதம் தெய்வம் காளி அர்ப்பணிக்கப்பட்ட\""}</item>
+        <item>{"day":"Tuesday","date":\""November 06\"","holiday":\""Deepavali\"","comment":\""Several states\"","lholiday":\""தீபாவளி\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Wednesday","date":\""November 07\"","holiday":\""Deepavali\"","comment":\""Several states\"","lholiday":\""தீபாவளி\"","lcomment":\""பல மாநிலங்களும்\""}</item>
+        <item>{"day":"Wednesday","date":\""November 07\"","holiday":\""Deewali\"","comment":\""Many states\"","lholiday":\""Deewali\"","lcomment":\""பல மாநிலங்களில்\""}</item>
+        <item>{"day":"Thursday","date":\""November 08\"","holiday":\""Deepavali\"","comment":\""Maharashtra\"","lholiday":\""தீபாவளி\"","lcomment":\""மகாராஷ்டிரா\""}</item>
+        <item>{"day":"Thursday","date":\""November 08\"","holiday":\""Vikram Samvat New Year\"","comment":\""Gujarat only.\"","lholiday":\""விக்ரம் சாம்வாட் புத்தாண்டு\"","lcomment":\""குஜராத் மட்டுமே.\""}</item>
+        <item>{"day":"Thursday","date":\""November 08\"","holiday":\""Vishvakarma Day\"","comment":\""Govardhan Puja\"","lholiday":\""Vishvakarma நாள்\"","lcomment":\""கோவர்த்தன் பூஜா\""}</item>
+        <item>{"day":"Thursday","date":\""November 08\"","holiday":\""Balipadyami\"","comment":\""Karnataka\"","lholiday":\""Balipadyami\"","lcomment":\""கர்நாடக\""}</item>
+        <item>{"day":"Friday","date":\""November 09\"","holiday":\""Bhai Bij\"","comment":\""Gujarat, Uttar Pradesh\"","lholiday":\""பாய் BIJ\"","lcomment":\""குஜராத், உத்தரப் பிரதேசம்\""}</item>
+        <item>{"day":"Friday","date":\""November 09\"","holiday":\""Deewali Holiday\"","comment":\""Rajasthan\"","lholiday":\""Deewali விடுமுறை\"","lcomment":\""ராஜஸ்தான்\""}</item>
+        <item>{"day":"Friday","date":\""November 09\"","holiday":\""Ningol Chakkouba\"","comment":\""Manipur. 2nd day of the lunar month of Hiyanggei\"","lholiday":\""Ningol Chakkouba\"","lcomment":\""மணிப்பூர். Hiyanggei சந்திர மாதம் 2 வது நாள்\""}</item>
+        <item>{"day":"Tuesday","date":\""November 13\"","holiday":\""Chhath Puja\"","comment":\""Bihar\"","lholiday":\""சாத் பூஜா\"","lcomment":\""பீகார்\""}</item>
+        <item>{"day":"Wednesday","date":\""November 14\"","holiday":\""Chhath Puja\"","comment":\""Assam, Bihar, Haryana\"","lholiday":\""சாத் பூஜா\"","lcomment":\""அசாம், பீகார், அரியானா\""}</item>
+        <item>{"day":"Tuesday","date":\""November 20\"","holiday":\""Id-e-Milad\"","comment":\""Kerala\"","lholiday":\""ஐடி-இ-மீலாது\"","lcomment":\""கேரளா\""}</item>
+        <item>{"day":"Wednesday","date":\""November 21\"","holiday":\""Id-e-Milad\"","comment":\""\"","lholiday":\""ஐடி-இ-மீலாது\"","lcomment":\""\""}</item>
+        <item>{"day":"Friday","date":\""November 23\"","holiday":\""Guru Nanak Birthday\"","comment":\""The Birthday of the founder of Sikhism, falls on full moon day of the month Kartik\"","lholiday":\""குரு நானக் பிறந்தநாள்\"","lcomment":\""சீக்கிய மதத்தின் நிறுவனர் பிறந்தநாள், மாதம் கார்த்திக் முழு நிலவு நாளில் விழும்\""}</item>
+        <item>{"day":"Friday","date":\""November 23\"","holiday":\""Rasa Purnima\"","comment":\""Odisha only\"","lholiday":\""ராசா பூர்ணிமா\"","lcomment":\""ஒடிசா மட்டுமே\""}</item>
+        <item>{"day":"Friday","date":\""November 23\"","holiday":\""Friday after Eid e-Milad-un Nabi\"","comment":\""Jammu and Kashmir only\"","lholiday":\""வெள்ளிக்கிழமை பிறகு ஈத் மின் மீலாது-அன் நபி\"","lcomment":\""ஜம்மு காஷ்மீர் மட்டுமே\""}</item>
+        <item>{"day":"Monday","date":\""November 26\"","holiday":\""Kanakadasa Jayanthi\"","comment":\""Karnataka only\"","lholiday":\""Kanakadasa ஜெயந்தி\"","lcomment":\""கர்நாடக மட்டுமே\""}</item>
+        <item>{"day":"Saturday","date":\""December 01\"","holiday":\""State Inauguration Day\"","comment":\""Nagaland\"","lholiday":\""மாநில பதவியேற்பு நாள்\"","lcomment":\""நாகாலாந்து\""}</item>
+        <item>{"day":"Monday","date":\""December 03\"","holiday":\""World Disabled Day\"","comment":\""Tripura only\"","lholiday":\""உலக முடக்கப்பட்டது நாள்\"","lcomment":\""திரிபுரா மட்டுமே\""}</item>
+        <item>{"day":"Monday","date":\""December 03\"","holiday":\""Feast of St Francis Xavier\"","comment":\""Goa only.\"","lholiday":\""செயின்ட் பிரான்சிஸ் சேவியர் விருந்து\"","lcomment":\""கோவா மட்டுமே.\""}</item>
+        <item>{"day":"Wednesday","date":\""December 05\"","holiday":\""Birthday of Sheikh Mohammad Abdullah\"","comment":\""Jammu and Kashmir\"","lholiday":\""ஷேக் முகமது அப்துல்லா பிறந்தநாள்\"","lcomment":\""ஜம்மு காஷ்மீர்\""}</item>
+        <item>{"day":"Sunday","date":\""December 16\"","holiday":\""Martyrdom Day of Sri Guru Teg Bahadur Ji\"","comment":\""Punjab only\"","lholiday":\""ஸ்ரீ குரு தேக் பகதூர் ஜி வீரமரணம் நாள்\"","lcomment":\""பஞ்சாப் மட்டும்\""}</item>
+        <item>{"day":"Wednesday","date":\""December 19\"","holiday":\""Goa Liberation Day\"","comment":\""Goa only\"","lholiday":\""கோவா விடுதலைப் நாள்\"","lcomment":\""கோவா மட்டுமே\""}</item>
+        <item>{"day":"Tuesday","date":\""December 25\"","holiday":\""Christmas Day\"","comment":\""Observed in all states\"","lholiday":\""கிறிஸ்துமஸ் நாள்\"","lcomment":\""அனைத்து நாடுகளிலும் காண\""}</item>
+        <item>{"day":"Wednesday","date":\""December 26\"","holiday":\""Boxing Day\"","comment":\""\"","lholiday":\""குத்துச்சண்டை தினம்\"","lcomment":\""\""}</item>
+        <item>{"day":"Wednesday","date":\""December 26\"","holiday":\""Shaheed Udham Singh's Birthday\"","comment":\""Haryana only\"","lholiday":\""ஷாகீத் உத்தம் சிங் பிறந்தநாள்\"","lcomment":\""அரியானா மட்டுமே\""}</item>
+    </string-array>
+    <string-array name="l_muhurtas_arr">
+        <item>{"type":"1","name":"ருத்ர","lname":"Rudra","ename":\""Cryer Howler\""}</item>
+        <item>{"type":"1","name":"கி","lname":"Ahi","ename":"Serpent"}</item>
+        <item>{"type":"0","name":"மித்ரா","lname":"Mithra","ename":"Friend"}</item>
+        <item>{"type":"1","name":"பித்ரு","lname":"Pithru","ename":"Father"}</item>
+        <item>{"type":"0","name":"வாசு","lname":"Vaasu","ename":"Bright"}</item>
+        <item>{"type":"0","name":"வராஹ","lname":"Varaha","ename":"Boar"}</item>
+        <item>{"type":"0","name":"விஸ்வேதேவ","lname":"Visvedeva","ename":\""Heavenly Lights in the Universe\""}</item>
+        <item>{"type":"0","name":"விதி","lname":"Vidhi","ename":"Insight"}</item>
+        <item>{"type":"0","name":"சாடாமுகி","lname":"Satamukhi","ename":\""Goat Charioteer-Face\""}</item>
+        <item>{"type":"1","name":"புருகூட","lname":"Puruguta","ename":\""Many Offerings\""}</item>
+        <item>{"type":"1,"name":"வாஹினி","lname":"Vahini","ename":\""Possessed of Chariot\""}</item>
+        <item>{"type":"1","name":"நட்ங்கற","lname":"Naktanakara","ename":\""Night Maker\""}</item>
+        <item>{"type":"0","name":"வருண","lname":"Varuna","ename":\""All-Envoloping Night Sky\""}</item>
+        <item>{"type":"0","name":"அர்யமான்","lname":"Aryaman","ename":\""Possessed of Nobility\""}</item>
+        <item>{"type":"1","name":"பாக","lname":"Bhaga","ename":\""Share Stake\""}</item>
+        <item>{"type":"1","name":"கிறிஸ","lname":"Girisa","ename":\""Lord of the Mount\""}</item>
+        <item>{"type":"1","name":"அஜப்பட","lname":"Ajapada","ename":\""Unborn Foot Goat Foot\""}</item>
+        <item>{"type":"0","name":"கிர்-பிதன்யா","lname":\""Khir-Bhidhnya\"","ename":\""Serpent at the Bottom\""}</item>
+        <item>{"type":"0","name":"புஷ்ய","lname":"Pushya","ename":\""Nourishment Blossom\""}</item>
+        <item>{"type":"0","name":"அஸ்வினி","lname":"Aswini","ename":"Horsemen"}</item>
+        <item>{"type":"1","name":"எம","lname":"Yama","ename":"Restrainer(Death)"}</item>
+        <item>{"type":"0","name":"அக்னி","lname":"Agni","ename":\""Fire Ignition\""}</item>
+        <item>{"type":"0","name":"விதற்று","lname":"Vidhatru","ename":"Distributor"}</item>
+        <item>{"type":"0","name":"கண்டா","lname":"Kanda","ename":"Ornament"}</item>
+        <item>{"type":"0","name":"அதிதி","lname":"Aditi","ename":\""Destitute Boundless\""}</item>
+        <item>{"type":"2","name":\""ஜீவ அமிர்த\"","lname":\""Jiva/Ambrut\"","ename":\""Life/ Immortal\""}></item>
+        <item>{"type":"0","name":"விஸ்ணு","lname":"Visnu","ename":\""All Pervading\""}</item>
+        <item>{"type":"0","name":"ட்யூமடக்காட்யுடி","lname":"Dyumadgadyuti","ename":\""Resounding Light\""}</item>
+        <item>{"type":"2","name":"பிரம்மா","lname":"Brahma","ename":"Universe"}</item>
+        <item>{"type":"0","name":"சமுத்திரம்","lname":"Samuthiram","ename":"Ocean"}</item>
+    </string-array>
+
+    <string-array name="cal201801" translatable="false">
+        <item>{"ta_fc":"1","dt":"1","ldt":"17","is_sknt":"0","tithi":"14","moonsign":"2","sunsign":"8","paksha":"0","nakshetra":"4","lmonth":"8"}</item>
+        <item>{"ta_fc":"2","dt":"2","ldt":"18","is_sknt":"0","tithi":"15|1","moonsign":"2","sunsign":"8","paksha":"0","nakshetra":"5","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"19","is_sknt":"0","tithi":"2","moonsign":"3","sunsign":"8","paksha":"1","nakshetra":"6","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"20","is_sknt":"0","tithi":"3","moonsign":"3","sunsign":"8","paksha":"1","nakshetra":"7|8","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"21","is_sknt":"0","tithi":"4","moonsign":"4","sunsign":"8","paksha":"1","nakshetra":"9","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"22","is_sknt":"0","tithi":"5","moonsign":"4","sunsign":"8","paksha":"1","nakshetra":"10","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"23","is_sknt":"0","tithi":"6","moonsign":"4","sunsign":"8","paksha":"1","nakshetra":"11","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"24","is_sknt":"0","tithi":"7","moonsign":"5","sunsign":"8","paksha":"1","nakshetra":"12","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"25","is_sknt":"0","tithi":"8","moonsign":"5","sunsign":"8","paksha":"1","nakshetra":"13","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"26","is_sknt":"0","tithi":"9","moonsign":"6","sunsign":"8","paksha":"1","nakshetra":"14","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"27","is_sknt":"0","tithi":"10","moonsign":"6","sunsign":"8","paksha":"1","nakshetra":"15","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"28","is_sknt":"0","tithi":"11","moonsign":"7","sunsign":"8","paksha":"1","nakshetra":"15","lmonth":"8"}</item>
+        <item>{"ta_fc":"3","dt":"13","ldt":"29","is_sknt":"0","tithi":"12","moonsign":"7","sunsign":"8","paksha":"1","nakshetra":"16","lmonth":"8"}</item>
+        <item>{"ta_fc":"4","dt":"14","ldt":"1","is_sknt":"1","tithi":"13","moonsign":"7","sunsign":"9","paksha":"1","nakshetra":"17","lmonth":"9"}</item>
+        <item>{"ta_fc":"5","dt":"15","ldt":"2","is_sknt":"0","tithi":"14","moonsign":"8","sunsign":"9","paksha":"1","nakshetra":"18","lmonth":"9"}</item>
+        <item>{"ta_fc":"7","dt":"16","ldt":"3","is_sknt":"0","tithi":"0","moonsign":"8","sunsign":"9","paksha":"1","nakshetra":"19","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"4","is_sknt":"0","tithi":"0","moonsign":"9","sunsign":"9","paksha":"1","nakshetra":"20","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"5","is_sknt":"0","tithi":"1","moonsign":"9","sunsign":"9","paksha":"0","nakshetra":"21","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"6","is_sknt":"0","tithi":"2","moonsign":"9","sunsign":"9","paksha":"0","nakshetra":"22","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"7","is_sknt":"0","tithi":"3","moonsign":"10","sunsign":"9","paksha":"0","nakshetra":"23","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"8","is_sknt":"0","tithi":"4","moonsign":"10","sunsign":"9","paksha":"0","nakshetra":"24","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"9","is_sknt":"0","tithi":"5","moonsign":"11","sunsign":"9","paksha":"0","nakshetra":"24","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"10","is_sknt":"0","tithi":"6","moonsign":"11","sunsign":"9","paksha":"0","nakshetra":"25","lmonth":"9"}</item>
+        <item>{"ta_fc":"8","dt":"24","ldt":"11","is_sknt":"0","tithi":"7","moonsign":"11","sunsign":"9","paksha":"0","nakshetra":"26","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"12","is_sknt":"0","tithi":"8","moonsign":"0","sunsign":"9","paksha":"0","nakshetra":"0","lmonth":"9"}</item>
+        <item>{"ta_fc":"6","dt":"26","ldt":"13","is_sknt":"0","tithi":"9","moonsign":"0","sunsign":"9","paksha":"0","nakshetra":"1","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"14","is_sknt":"0","tithi":"10","moonsign":"1","sunsign":"9","paksha":"0","nakshetra":"2|3","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"15","is_sknt":"0","tithi":"11|12","moonsign":"1","sunsign":"9","paksha":"0","nakshetra":"4","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"16","is_sknt":"0","tithi":"13","moonsign":"2","sunsign":"9","paksha":"0","nakshetra":"5","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"17","is_sknt":"0","tithi":"14","moonsign":"2","sunsign":"9","paksha":"0","nakshetra":"6","lmonth":"9"}</item>
+        <item>{"ta_fc":"9","dt":"31","ldt":"18","is_sknt":"0","tithi":"15","moonsign":"3","sunsign":"9","paksha":"0","nakshetra":"7","lmonth":"9"}</item>
+    </string-array>
+
+    <string-array name="cal201802" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"19","is_sknt":"0","tithi":"1","moonsign":"3","sunsign":"9","paksha":"1","nakshetra":"8","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"20","is_sknt":"0","tithi":"2","moonsign":"4","sunsign":"9","paksha":"1","nakshetra":"9","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"21","is_sknt":"0","tithi":"3","moonsign":"4","sunsign":"9","paksha":"1","nakshetra":"10","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"22","is_sknt":"0","tithi":"4","moonsign":"5","sunsign":"9","paksha":"1","nakshetra":"11","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"23","is_sknt":"0","tithi":"5","moonsign":"5","sunsign":"9","paksha":"1","nakshetra":"12","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"24","is_sknt":"0","tithi":"6","moonsign":"6","sunsign":"9","paksha":"1","nakshetra":"13","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"25","is_sknt":"0","tithi":"7","moonsign":"6","sunsign":"9","paksha":"1","nakshetra":"14","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"26","is_sknt":"0","tithi":"8","moonsign":"6","sunsign":"9","paksha":"1","nakshetra":"15","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"27","is_sknt":"0","tithi":"9","moonsign":"7","sunsign":"9","paksha":"1","nakshetra":"16","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"28","is_sknt":"0","tithi":"10","moonsign":"7","sunsign":"9","paksha":"1","nakshetra":"7","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"29","is_sknt":"0","tithi":"11","moonsign":"8","sunsign":"9","paksha":"1","nakshetra":"18","lmonth":"9"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"30","is_sknt":"0","tithi":"12","moonsign":"8","sunsign":"9","paksha":"1","nakshetra":"19","lmonth":"9"}</item>
+        <item>{"ta_fc":"10","dt":"13","ldt":"1","is_sknt":"1","tithi":"13","moonsign":"8","sunsign":"10","paksha":"1","nakshetra":"20","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"2","is_sknt":"0","tithi":"14","moonsign":"9","sunsign":"10","paksha":"1","nakshetra":"21","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"3","is_sknt":"0","tithi":"0","moonsign":"9","sunsign":"10","paksha":"1","nakshetra":"21","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"4","is_sknt":"0","tithi":"1","moonsign":"10","sunsign":"10","paksha":"0","nakshetra":"22","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"5","is_sknt":"0","tithi":"2","moonsign":"10","sunsign":"10","paksha":"0","nakshetra":"23","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"6","is_sknt":"0","tithi":"3","moonsign":"10","sunsign":"10","paksha":"0","nakshetra":"24","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"7","is_sknt":"0","tithi":"4","moonsign":"11","sunsign":"10","paksha":"0","nakshetra":"25","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"8","is_sknt":"0","tithi":"5","moonsign":"11","sunsign":"10","paksha":"0","nakshetra":"26","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"9","is_sknt":"0","tithi":"6","moonsign":"0","sunsign":"10","paksha":"0","nakshetra":"0","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"10","is_sknt":"0","tithi":"7","moonsign":"0","sunsign":"10","paksha":"0","nakshetra":"1","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"11","is_sknt":"0","tithi":"8","moonsign":"1","sunsign":"10","paksha":"0","nakshetra":"2","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"12","is_sknt":"0","tithi":"9","moonsign":"1","sunsign":"10","paksha":"0","nakshetra":"3","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"13","is_sknt":"0","tithi":"10","moonsign":"2","sunsign":"10","paksha":"0","nakshetra":"4","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"14","is_sknt":"0","tithi":"11","moonsign":"2","sunsign":"10","paksha":"0","nakshetra":"5","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"15","is_sknt":"0","tithi":"12","moonsign":"3","sunsign":"10","paksha":"0","nakshetra":"6|7","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"16","is_sknt":"0","tithi":"13","moonsign":"3","sunsign":"10","paksha":"0","nakshetra":"8","lmonth":"10"}</item>
+    </string-array>
+
+    <string-array name="cal201803" translatable="false">
+        <item>{"ta_fc":"11","dt":"1","ldt":"17","is_sknt":"0","tithi":"14|15","moonsign":"4","sunsign":"10","paksha":"0","nakshetra":"9","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"18","is_sknt":"0","tithi":"1","moonsign":"4","sunsign":"10","paksha":"1","nakshetra":"10","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"19","is_sknt":"0","tithi":"2","moonsign":"5","sunsign":"10","paksha":"1","nakshetra":"11","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"20","is_sknt":"0","tithi":"3","moonsign":"5","sunsign":"10","paksha":"1","nakshetra":"12","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"21","is_sknt":"0","tithi":"4","moonsign":"5","sunsign":"10","paksha":"1","nakshetra":"13","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"22","is_sknt":"0","tithi":"5","moonsign":"6","sunsign":"10","paksha":"1","nakshetra":"14","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"23","is_sknt":"0","tithi":"6","moonsign":"6","sunsign":"10","paksha":"1","nakshetra":"15","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"24","is_sknt":"0","tithi":"7","moonsign":"7","sunsign":"10","paksha":"1","nakshetra":"16","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"25","is_sknt":"0","tithi":"8","moonsign":"7","sunsign":"10","paksha":"1","nakshetra":"17","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"26","is_sknt":"0","tithi":"8","moonsign":"8","sunsign":"10","paksha":"1","nakshetra":"18","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"27","is_sknt":"0","tithi":"9","moonsign":"8","sunsign":"10","paksha":"1","nakshetra":"18","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"28","is_sknt":"0","tithi":"10","moonsign":"8","sunsign":"10","paksha":"1","nakshetra":"19","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"13","ldt":"29","is_sknt":"0","tithi":"11","moonsign":"9","sunsign":"10","paksha":"1","nakshetra":"20","lmonth":"10"}</item>
+        <item>{"ta_fc":"12","dt":"14","ldt":"30","is_sknt":"0","tithi":"12","moonsign":"9","sunsign":"10","paksha":"1","nakshetra":"21","lmonth":"10"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"1","is_sknt":"1","tithi":"13","moonsign":"10","sunsign":"11","paksha":"1","nakshetra":"22","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"2","is_sknt":"0","tithi":"14","moonsign":"10","sunsign":"11","paksha":"1","nakshetra":"23","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"3","is_sknt":"0","tithi":"0","moonsign":"10","sunsign":"11","paksha":"1","nakshetra":"24","lmonth":"11"}</item>
+        <item>{"ta_fc":"13","dt":"18","ldt":"4","is_sknt":"0","tithi":"1","moonsign":"11","sunsign":"11","paksha":"0","nakshetra":"25","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"5","is_sknt":"0","tithi":"2","moonsign":"11","sunsign":"11","paksha":"0","nakshetra":"26","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"6","is_sknt":"0","tithi":"3","moonsign":"0","sunsign":"11","paksha":"0","nakshetra":"0","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"7","is_sknt":"0","tithi":"4","moonsign":"0","sunsign":"11","paksha":"0","nakshetra":"1","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"8","is_sknt":"0","tithi":"5","moonsign":"1","sunsign":"11","paksha":"0","nakshetra":"2","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"9","is_sknt":"0","tithi":"6","moonsign":"1","sunsign":"11","paksha":"0","nakshetra":"3","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"10","is_sknt":"0","tithi":"7","moonsign":"2","sunsign":"11","paksha":"0","nakshetra":"4","lmonth":"11"}</item>
+        <item>{"ta_fc":"14","dt":"25","ldt":"11","is_sknt":"0","tithi":"8","moonsign":"2","sunsign":"11","paksha":"0","nakshetra":"5","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"12","is_sknt":"0","tithi":"9|10","moonsign":"2","sunsign":"11","paksha":"0","nakshetra":"6","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"13","is_sknt":"0","tithi":"11","moonsign":"3","sunsign":"11","paksha":"0","nakshetra":"7","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"14","is_sknt":"0","tithi":"12","moonsign":"3","sunsign":"11","paksha":"0","nakshetra":"8","lmonth":"11"}</item>
+        <item>{"ta_fc":"58","dt":"29","ldt":"15","is_sknt":"0","tithi":"13","moonsign":"4","sunsign":"11","paksha":"0","nakshetra":"9","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"16","is_sknt":"0","tithi":"14","moonsign":"4","sunsign":"11","paksha":"0","nakshetra":"10","lmonth":"11"}</item>
+        <item>{"ta_fc":"15","dt":"31","ldt":"17","is_sknt":"0","tithi":"15","moonsign":"5","sunsign":"11","paksha":"0","nakshetra":"11","lmonth":"11"}</item>
+    </string-array>
+
+    <string-array name="cal201804" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"18","is_sknt":"0","tithi":"1","moonsign":"5","sunsign":"11","paksha":"1","nakshetra":"12","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"19","is_sknt":"0","tithi":"2","moonsign":"6","sunsign":"11","paksha":"1","nakshetra":"13","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"20","is_sknt":"0","tithi":"3","moonsign":"6","sunsign":"11","paksha":"1","nakshetra":"14","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"21","is_sknt":"0","tithi":"4","moonsign":"7","sunsign":"11","paksha":"1","nakshetra":"15","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"22","is_sknt":"0","tithi":"5","moonsign":"7","sunsign":"11","paksha":"1","nakshetra":"16","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"23","is_sknt":"0","tithi":"6","moonsign":"7","sunsign":"11","paksha":"1","nakshetra":"17","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"24","is_sknt":"0","tithi":"7","moonsign":"8","sunsign":"11","paksha":"1","nakshetra":"18","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"25","is_sknt":"0","tithi":"8","moonsign":"8","sunsign":"11","paksha":"1","nakshetra":"19","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"26","is_sknt":"0","tithi":"9","moonsign":"8","sunsign":"11","paksha":"1","nakshetra":"20","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"27","is_sknt":"0","tithi":"10","moonsign":"9","sunsign":"11","paksha":"1","nakshetra":"21","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"28","is_sknt":"0","tithi":"10","moonsign":"9","sunsign":"11","paksha":"1","nakshetra":"22","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"29","is_sknt":"0","tithi":"11","moonsign":"10","sunsign":"11","paksha":"1","nakshetra":"23","lmonth":"11"}</item>
+        <item>{"ta_fc":"0","dt":"13","ldt":"30","is_sknt":"0","tithi":"12","moonsign":"10","sunsign":"11","paksha":"1","nakshetra":"24","lmonth":"11"}</item>
+        <item>{"ta_fc":"16","dt":"14","ldt":"1","is_sknt":"1","tithi":"13","moonsign":"11","sunsign":"0","paksha":"1","nakshetra":"25","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"2","is_sknt":"0","tithi":"14","moonsign":"11","sunsign":"0","paksha":"1","nakshetra":"26","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"3","is_sknt":"0","tithi":"0","moonsign":"0","sunsign":"0","paksha":"1","nakshetra":"0","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"4","is_sknt":"0","tithi":"1|2","moonsign":"0","sunsign":"0","paksha":"0","nakshetra":"1","lmonth":"0"}</item>
+        <item>{"ta_fc":"17","dt":"18","ldt":"5","is_sknt":"0","tithi":"3","moonsign":"0","sunsign":"0","paksha":"0","nakshetra":"2","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"6","is_sknt":"0","tithi":"4","moonsign":"1","sunsign":"0","paksha":"0","nakshetra":"3","lmonth":"0"}</item>
+        <item>{"ta_fc":"18","dt":"20","ldt":"7","is_sknt":"0","tithi":"5","moonsign":"1","sunsign":"0","paksha":"0","nakshetra":"4","lmonth":"0"}</item>
+        <item>{"ta_fc":"19","dt":"21","ldt":"8","is_sknt":"0","tithi":"6","moonsign":"2","sunsign":"0","paksha":"0","nakshetra":"5","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"9","is_sknt":"0","tithi":"7","moonsign":"2","sunsign":"0","paksha":"0","nakshetra":"6","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"10","is_sknt":"0","tithi":"8","moonsign":"3","sunsign":"0","paksha":"0","nakshetra":"7","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"11","is_sknt":"0","tithi":"9","moonsign":"3","sunsign":"0","paksha":"0","nakshetra":"8","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"12","is_sknt":"0","tithi":"10","moonsign":"4","sunsign":"0","paksha":"0","nakshetra":"9","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"13","is_sknt":"0","tithi":"11","moonsign":"4","sunsign":"0","paksha":"0","nakshetra":"10","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"14","is_sknt":"0","tithi":"12","moonsign":"5","sunsign":"0","paksha":"0","nakshetra":"11","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"15","is_sknt":"0","tithi":"13","moonsign":"5","sunsign":"0","paksha":"0","nakshetra":"12","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"16","is_sknt":"0","tithi":"14","moonsign":"6","sunsign":"0","paksha":0","nakshetra":"13","lmonth":"0"}</item>
+        <item>{"ta_fc":"21","dt":"30","ldt":"17","is_sknt":"0","tithi":"15","moonsign":"6","sunsign":"0","paksha":"0","nakshetra":"14","lmonth":"0"}</item>
+    </string-array>
+
+    <string-array name="cal201805" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"18","is_sknt":"0","tithi":"1","moonsign":"6","sunsign":"0","paksha":"1","nakshetra":"15","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"19","is_sknt":"0","tithi":"2","moonsign":"7","sunsign":"0","paksha":"1","nakshetra":"16","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"20","is_sknt":"0","tithi":"3","moonsign":"7","sunsign":"0","paksha":"1","nakshetra":"17","lmonth":"0"}</item>
+        <item>{"ta_fc":"20","dt":"4","ldt":"21","is_sknt":"0","tithi":"4","moonsign":"8","sunsign":"0","paksha":"1","nakshetra":"18","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"22","is_sknt":"0","tithi":"5","moonsign":"8","sunsign":"0","paksha":"1","nakshetra":"19","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"23","is_sknt":"0","tithi":"6","moonsign":"8","sunsign":"0","paksha":"1","nakshetra":"20","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"24","is_sknt":"0","tithi":"7","moonsign":"9","sunsign":"0","paksha":"1","nakshetra":"20","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"25","is_sknt":"0","tithi":"8","moonsign":"9","sunsign":"0","paksha":"1","nakshetra":"21","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"26","is_sknt":"0","tithi":"9","moonsign":"10","sunsign":"0","paksha":"1","nakshetra":"22","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"27","is_sknt":"0","tithi":"10","moonsign":"10","sunsign":"0","paksha":"1","nakshetra":"23","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"28","is_sknt":"0","tithi":"11","moonsign":"10","sunsign":"0","paksha":"1","nakshetra":"24","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"29","is_sknt":"0","tithi":"12","moonsign":"11","sunsign":"0","paksha":"1","nakshetra":"25","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"13","ldt":"30","is_sknt":"0","tithi":"13","moonsign":"11","sunsign":"0","paksha":"1","nakshetra":"26","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"31","is_sknt":"0","tithi":"14","moonsign":"0","sunsign":"0","paksha":"1","nakshetra":"0","lmonth":"0"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"1","is_sknt":"1","tithi":"0","moonsign":"0","sunsign":"1","paksha":"1","nakshetra":"1","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"2","is_sknt":"0","tithi":"1","moonsign":"1","sunsign":"1","paksha":"0","nakshetra":"2","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"3","is_sknt":"0","tithi":"2","moonsign":"1","sunsign":"1","paksha":"0","nakshetra":"3","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"4","is_sknt":"0","tithi":"3","moonsign":"2","sunsign":"1","paksha":"0","nakshetra":"4|5","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"5","is_sknt":"0","tithi":"4|5","moonsign":"2","sunsign":"1","paksha":"0","nakshetra":"6","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"6","is_sknt":"0","tithi":"6","moonsign":"3","sunsign":"1","paksha":"0","nakshetra":"7","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"7","is_sknt":"0","tithi":"7","moonsign":"3","sunsign":"1","paksha":"0","nakshetra":"8","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"8","is_sknt":"0","tithi":"8","moonsign":"4","sunsign":"1","paksha":"0","nakshetra":"9","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"9","is_sknt":"0","tithi":"9","moonsign":"4","sunsign":"1","paksha":"0","nakshetra":"10","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"10","is_sknt":"0","tithi":"10","moonsign":"5","sunsign":"1","paksha":"0","nakshetra":"11","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"11","is_sknt":"0","tithi":"11","moonsign":"5","sunsign":"1","paksha":"0","nakshetra":"12","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"12","is_sknt":"0","tithi":"12","moonsign":"5","sunsign":"1","paksha":"0","nakshetra":"13","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"13","is_sknt":"0","tithi":"13","moonsign":"6","sunsign":"1","paksha":"0","nakshetra":"14","lmonth":"1"}</item>
+        <item>{"ta_fc":"22|23","dt":"28","ldt":"14","is_sknt":"0","tithi":"14","moonsign":"6","sunsign":"1","paksha":"0","nakshetra":"15","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"15","is_sknt":"0","tithi":"15","moonsign":"7","sunsign":"1","paksha":"0","nakshetra":"16","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"16","is_sknt":"0","tithi":"1","moonsign":"7","sunsign":"1","paksha":"1","nakshetra":"17","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"31","ldt":"17","is_sknt":"0","tithi":"2","moonsign":"8","sunsign":"1","paksha":"1","nakshetra":"18","lmonth":"1"}</item>
+    </string-array>
+
+    <string-array name="cal201806" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"18","is_sknt":"0","tithi":"3","moonsign":"8","sunsign":"1","paksha":"1","nakshetra":"18","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"19","is_sknt":"0","tithi":"4","moonsign":"8","sunsign":"1","paksha":"1","nakshetra":"19","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"20","is_sknt":"0","tithi":"5","moonsign":"9","sunsign":"1","paksha":"1","nakshetra":"20","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"21","is_sknt":"0","tithi":"5","moonsign":"9","sunsign":"1","paksha":"1","nakshetra":"21","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"22","is_sknt":"0","tithi":"6","moonsign":"9","sunsign":"1","paksha":"1","nakshetra":"22","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"23","is_sknt":"0","tithi":"7","moonsign":"10","sunsign":"1","paksha":"1","nakshetra":"23","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"24","is_sknt":"0","tithi":"8","moonsign":"10","sunsign":"1","paksha":"1","nakshetra":"24","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"25","is_sknt":"0","tithi":"9","moonsign":"11","sunsign":"1","paksha":"1","nakshetra":"25","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"26","is_sknt":"0","tithi":"10","moonsign":"11","sunsign":"1","paksha":"1","nakshetra":"26","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"27","is_sknt":"0","tithi":"11","moonsign":"0","sunsign":"1","paksha":"1","nakshetra":"0","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"28","is_sknt":"0","tithi":"12","moonsign":"0","sunsign":"1","paksha":"1","nakshetra":"1","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"29","is_sknt":"0","tithi":"13|14","moonsign":"1","sunsign":"1","paksha":"1","nakshetra":"2","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"13","ldt":"30","is_sknt":"0","tithi":"0","moonsign":"1","sunsign":"1","paksha":"1","nakshetra":"3","lmonth":"1"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"31","is_sknt":"0","tithi":"1","moonsign":"2","sunsign":"1","paksha":"0","nakshetra":"4","lmonth":"1"}</item>
+        <item>{"ta_fc":"56","dt":"15","ldt":"1","is_sknt":"1","tithi":"2","moonsign":"2","sunsign":"2","paksha":"0","nakshetra":"5","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"2","is_sknt":"0","tithi":"3","moonsign":"3","sunsign":"2","paksha":"0","nakshetra":"6|7","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"3","is_sknt":"0","tithi":"4","moonsign":"3","sunsign":"2","paksha":"0","nakshetra":"8","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"4","is_sknt":"0","tithi":"5","moonsign":"4","sunsign":"2","paksha":"0","nakshetra":"9","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"5","is_sknt":"0","tithi":"6|7","moonsign":"4","sunsign":"2","paksha":"0","nakshetra":"10","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"6","is_sknt":"0","tithi":"8","moonsign":"5","sunsign":"2","paksha":"0","nakshetra":"11","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"7","is_sknt":"0","tithi":"9","moonsign":"5","sunsign":"2","paksha":"0","nakshetra":"12","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"8","is_sknt":"0","tithi":"10","moonsign":"5","sunsign":"2","paksha":"0","nakshetra":"13","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"9","is_sknt":"0","tithi":"11","moonsign":"6","sunsign":"2","paksha":"0","nakshetra":"14","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"10","is_sknt":"0","tithi":"12","moonsign":"6","sunsign":"2","paksha":"0","nakshetra":"15","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"11","is_sknt":"0","tithi":"13","moonsign":"7","sunsign":"2","paksha":"0","nakshetra":"15","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"12","is_sknt":"0","tithi":"13","moonsign":"7","sunsign":"2","paksha":"0","nakshetra":"16","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"13","is_sknt":"0","tithi":"14","moonsign":"7","sunsign":"2","paksha":"0","nakshetra":"17","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"14","is_sknt":"0","tithi":"15","moonsign":"8","sunsign":"2","paksha":"0","nakshetra":"18","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"15","is_sknt":"0","tithi":"1","moonsign":"8","sunsign":"2","paksha":"1","nakshetra":"19","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"16","is_sknt":"0","tithi":"2","moonsign":"9","sunsign":"2","paksha":"1","nakshetra":"20","lmonth":"2"}</item>
+    </string-array>
+
+
+    <string-array name="cal201807" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"17","is_sknt":"0","tithi":"3","moonsign":"9","sunsign":"2","paksha":"1","nakshetra":"21","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"18","is_sknt":"0","tithi":"4","moonsign":"9","sunsign":"2","paksha":"1","nakshetra":"22","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"19","is_sknt":"0","tithi":"5","moonsign":"10","sunsign":"2","paksha":"1","nakshetra":"23","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"20","is_sknt":"0","tithi":"6","moonsign":"10","sunsign":"2","paksha":"1","nakshetra":"24","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"21","is_sknt":"0","tithi":"7","moonsign":"11","sunsign":"2","paksha":"1","nakshetra":"24","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"22","is_sknt":"0","tithi":"8","moonsign":"11","sunsign":"2","paksha":"1","nakshetra":"25","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"23","is_sknt":"0","tithi":"9","moonsign":"11","sunsign":"2","paksha":"1","nakshetra":"26","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"24","is_sknt":"0","tithi":"10","moonsign":"0","sunsign":"2","paksha":"1","nakshetra":"0","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"25","is_sknt":"0","tithi":"11","moonsign":"0","sunsign":"2","paksha":"1","nakshetra":"1","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"26","is_sknt":"0","tithi":"12","moonsign":"1","sunsign":"2","paksha":"1","nakshetra":"2|3","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"27","is_sknt":"0","tithi":"13","moonsign":"1","sunsign":"2","paksha":"1","nakshetra":"4","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"28","is_sknt":"0","tithi":"14","moonsign":"2","sunsign":"2","paksha":"1","nakshetra":"5","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"13","ldt":"29","is_sknt":"0","tithi":"0|1","moonsign":"2","sunsign":"2","paksha":"1","nakshetra":"6","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"30","is_sknt":"0","tithi":"2","moonsign":"3","sunsign":"2","paksha":"0","nakshetra":"7","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"31","is_sknt":"0","tithi":"3","moonsign":"3","sunsign":"2","paksha":"0","nakshetra":"8","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"32","is_sknt":"0","tithi":"4","moonsign":"4","sunsign":"2","paksha":"0","nakshetra":"9","lmonth":"2"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"1","is_sknt":"1","tithi":"5","moonsign":"4","sunsign":"3","paksha":"0","nakshetra":"10","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"2","is_sknt":"0","tithi":"6","moonsign":"5","sunsign":"3","paksha":"0","nakshetra":"11","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"3","is_sknt":"0","tithi":"7","moonsign":"5","sunsign":"3","paksha":"0","nakshetra":"12","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"4","is_sknt":"0","tithi":"8","moonsign":"6","sunsign":"3","paksha":"0","nakshetra":"13","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"5","is_sknt":"0","tithi":"9","moonsign":"6","sunsign":"3","paksha":"0","nakshetra":"14","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"6","is_sknt":"0","tithi":"10","moonsign":"7","sunsign":"3","paksha":"0","nakshetra":"15","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"7","is_sknt":"0","tithi":"11","moonsign":"7","sunsign":"3","paksha":"0","nakshetra":"16","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"8","is_sknt":"0","tithi":"12","moonsign":"7","sunsign":"3","paksha":"0","nakshetra":"17","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"9","is_sknt":"0","tithi":"13","moonsign":"8","sunsign":"3","paksha":"0","nakshetra":"18","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"10","is_sknt":"0","tithi":"14","moonsign":"8","sunsign":"3","paksha":"0","nakshetra":"19","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"11","is_sknt":"0","tithi":"15","moonsign":"9","sunsign":"3","paksha":"0","nakshetra":"20","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"12","is_sknt":"0","tithi":"1","moonsign":"9","sunsign":"3","paksha":"1","nakshetra":"21","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"13","is_sknt":"0","tithi":"2","moonsign":"9","sunsign":"3","paksha":"1","nakshetra":"22","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"14","is_sknt":"0","tithi":"2","moonsign":"10","sunsign":"3","paksha":"1","nakshetra":"22","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"31","ldt":"15","is_sknt":"0","tithi":"3","moonsign":"10","sunsign":"3","paksha":"1","nakshetra":"23","lmonth":"3"}</item>
+    </string-array>
+
+    <string-array name="cal201808" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"16","is_sknt":"0","tithi":"4","moonsign":"10","sunsign":"3","paksha":"1","nakshetra":"24","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"17","is_sknt":"0","tithi":"5","moonsign":"11","sunsign":"3","paksha":"1","nakshetra":"25","lmonth":"3"}</item>
+        <item>{"ta_fc":"29","dt":"3","ldt":"18","is_sknt":"0","tithi":"6","moonsign":"11","sunsign":"3","paksha":"1","nakshetra":"26","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"19","is_sknt":"0","tithi":"7","moonsign":"0","sunsign":"3","paksha":"1","nakshetra":"0","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"20","is_sknt":"0","tithi":"8","moonsign":"0","sunsign":"3","paksha":"1","nakshetra":"1","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"21","is_sknt":"0","tithi":"9","moonsign":"1","sunsign":"3","paksha":"1","nakshetra":"2","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"22","is_sknt":"0","tithi":"10","moonsign":"1","sunsign":"3","paksha":"1","nakshetra":"3","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"23","is_sknt":"0","tithi":"11|12","moonsign":"2","sunsign":"3","paksha":"1","nakshetra":"4","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"24","is_sknt":"0","tithi":"13","moonsign":"2","sunsign":"3","paksha":"1","nakshetra":"5","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"25","is_sknt":"0","tithi":"14","moonsign":"3","sunsign":"3","paksha":"1","nakshetra":"6|7","lmonth":"3"}</item>
+        <item>{"ta_fc":"24","dt":"11","ldt":"26","is_sknt":"0","tithi":"0","moonsign":"3","sunsign":"3","paksha":"1","nakshetra":"8","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"27","is_sknt":"0","tithi":"1","moonsign":"4","sunsign":"3","paksha":"0","nakshetra":"9","lmonth":"3"}</item>
+        <item>{"ta_fc":"25","dt":"13","ldt":"28","is_sknt":"0","tithi":"2|3","moonsign":"4","sunsign":"3","paksha":"0","nakshetra":"10","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"29","is_sknt":"0","tithi":"4","moonsign":"5","sunsign":"3","paksha":"0","nakshetra":"11","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"30","is_sknt":"0","tithi":"5","moonsign":"5","sunsign":"3","paksha":"0","nakshetra":"12","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"31","is_sknt":"0","tithi":"6","moonsign":"6","sunsign":"3","paksha":"0","nakshetra":"13","lmonth":"3"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"1","is_sknt":"1","tithi":"7","moonsign":"6","sunsign":"4","paksha":"0","nakshetra":"14","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"2","is_sknt":"0","tithi":"8","moonsign":"6","sunsign":"4","paksha":"0","nakshetra":"15","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"3","is_sknt":"0","tithi":"9","moonsign":"7","sunsign":"4","paksha":"0","nakshetra":"16","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"4","is_sknt":"0","tithi":"10","moonsign":"7","sunsign":"4","paksha":"0","nakshetra":"17","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"5","is_sknt":"0","tithi":"11","moonsign":"8","sunsign":"4","paksha":"0","nakshetra":"18","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"6","is_sknt":"0","tithi":"11","moonsign":"8","sunsign":"4","paksha":"0","nakshetra":"19","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"7","is_sknt":"0","tithi":"12","moonsign":"8","sunsign":"4","paksha":"0","nakshetra":"20","lmonth":"4"}</item>
+        <item>{"ta_fc":"30|34","dt":"24","ldt":"8","is_sknt":"0","tithi":"13","moonsign":"9","sunsign":"4","paksha":"0","nakshetra":"20","lmonth":"4"}</item>
+        <item>{"ta_fc":"27","dt":"25","ldt":"9","is_sknt":"0","tithi":"14","moonsign":"9","sunsign":"4","paksha":"0","nakshetra":"21","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"10","is_sknt":"0","tithi":"15","moonsign":"9","sunsign":"4","paksha":"0","nakshetra":"22","lmonth":"4"}</item>
+        <item>{"ta_fc":"28","dt":"27","ldt":"11","is_sknt":"0","tithi":"1","moonsign":"10","sunsign":"4","paksha":"1","nakshetra":"23","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"12","is_sknt":"0","tithi":"2","moonsign":"10","sunsign":"4","paksha":"1","nakshetra":"24","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"13","is_sknt":"0","tithi":"3","moonsign":"11","sunsign":"4","paksha":"1","nakshetra":"25","lmonth":"4"}</item>
+        <item>{"ta_fc":"31","dt":"30","ldt":"14","is_sknt":"0","tithi":"4","moonsign":"11","sunsign":"4","paksha":"1","nakshetra":"26","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"31","ldt":"15","is_sknt":"0","tithi":"5","moonsign":"0","sunsign":"4","paksha":"1","nakshetra":"0","lmonth":"4"}</item>
+    </string-array>
+
+    <string-array name="cal201809" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"16","is_sknt":"0","tithi":"6","moonsign":"0","sunsign":"4","paksha":"1","nakshetra":"1","lmonth":"4"}</item>
+        <item>{"ta_fc":"32|36","dt":"2","ldt":"17","is_sknt":"0","tithi":"7","moonsign":"1","sunsign":"4","paksha":"1","nakshetra":"2","lmonth":"4"}</item>
+        <item>{"ta_fc":"32","dt":"3","ldt":"18","is_sknt":"0","tithi":"8","moonsign":"1","sunsign":"4","paksha":"1","nakshetra":"3","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"19","is_sknt":"0","tithi":"9","moonsign":"1","sunsign":"4","paksha":"1","nakshetra":"4","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"20","is_sknt":"0","tithi":"10","moonsign":"2","sunsign":"4","paksha":"1","nakshetra":"5","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"21","is_sknt":"0","tithi":"11","moonsign":"2","sunsign":"4","paksha":"1","nakshetra":"6","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"22","is_sknt":"0","tithi":"12","moonsign":"3","sunsign":"4","paksha":"1","nakshetra":"7","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"23","is_sknt":"0","tithi":"13|14","moonsign":"3","sunsign":"4","paksha":"1","nakshetra":"8","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"24","is_sknt":"0","tithi":"0","moonsign":"4","sunsign":"4","paksha":"1","nakshetra":"9","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"25","is_sknt":"0","tithi":"1","moonsign":"4","sunsign":"4","paksha":"0","nakshetra":"10|11","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"26","is_sknt":"0","tithi":"2","moonsign":"5","sunsign":"4","paksha":"0","nakshetra":"12","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"27","is_sknt":"0","tithi":"3","moonsign":"5","sunsign":"4","paksha":"0","nakshetra":"13","lmonth":"4"}</item>
+        <item>{"ta_fc":"33","dt":"13","ldt":"28","is_sknt":"0","tithi":"4","moonsign":"6","sunsign":"4","paksha":"0","nakshetra":"14","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"29","is_sknt":"0","tithi":"5","moonsign":"6","sunsign":"4","paksha":"0","nakshetra":"15","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"30","is_sknt":"0","tithi":"6","moonsign":"7","sunsign":"4","paksha":"0","nakshetra":"16","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"31","is_sknt":"0","tithi":"7","moonsign":"7","sunsign":"4","paksha":"0","nakshetra":"17","lmonth":"4"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"1","is_sknt":"1","tithi":"8","moonsign":"8","sunsign":"5","paksha":"0","nakshetra":"18","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"2","is_sknt":"0","tithi":"9","moonsign":"8","sunsign":"5","paksha":"0","nakshetra":"19","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"3","is_sknt":"0","tithi":"10","moonsign":"8","sunsign":"5","paksha":"0","nakshetra":"19","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"4","is_sknt":"0","tithi":"11","moonsign":"9","sunsign":"5","paksha":"0","nakshetra":"20","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"5","is_sknt":"0","tithi":"12","moonsign":"9","sunsign":"5","paksha":"0","nakshetra":"21","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"6","is_sknt":"0","tithi":"13","moonsign":"9","sunsign":"5","paksha":"0","nakshetra":"22","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"7","is_sknt":"0","tithi":"14","moonsign":"10","sunsign":"5","paksha":"0","nakshetra":"23","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"8","is_sknt":"0","tithi":"14","moonsign":"10","sunsign":"5","paksha":"0","nakshetra":"24","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"9","is_sknt":"0","tithi":"15","moonsign":"11","sunsign":"5","paksha":"0","nakshetra":"25","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"10","is_sknt":"0","tithi":"1","moonsign":"11","sunsign":"5","paksha":"1","nakshetra":"26","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"11","is_sknt":"0","tithi":"2","moonsign":"0","sunsign":"5","paksha":"1","nakshetra":"0","lmonth":"5"}</item>
+        <item>{"ta_fc":"35","dt":"28","ldt":"12","is_sknt":"0","tithi":"3","moonsign":"0","sunsign":"5","paksha":"1","nakshetra":"1","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"13","is_sknt":"0","tithi":"4","moonsign":"0","sunsign":"5","paksha":"1","nakshetra":"2","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"14","is_sknt":"0","tithi":"5","moonsign":"1","sunsign":"5","paksha":"1","nakshetra":"3","lmonth":"5"}</item>
+    </string-array>
+
+    <string-array name="cal201810" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"15","is_sknt":"0","tithi":"6|7","moonsign":"1","sunsign":"5","paksha":"1","nakshetra":"4","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"16","is_sknt":"0","tithi":"8","moonsign":"2","sunsign":"5","paksha":"1","nakshetra":"5","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"17","is_sknt":"0","tithi":"9","moonsign":"2","sunsign":"5","paksha":"1","nakshetra":"6","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"18","is_sknt":"0","tithi":"10","moonsign":"3","sunsign":"5","paksha":"1","nakshetra":"7","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"19","is_sknt":"0","tithi":"11","moonsign":"3","sunsign":"5","paksha":"1","nakshetra":"8","lmonth":"5"}</item>
+        <item>{"ta_fc":"37","dt":"6","ldt":"20","is_sknt":"0","tithi":"12","moonsign":"4","sunsign":"5","paksha":"1","nakshetra":"9","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"21","is_sknt":"0","tithi":"13","moonsign":"4","sunsign":"5","paksha":"1","nakshetra":"10","lmonth":"5"}</item>
+        <item>{"ta_fc":"38","dt":"8","ldt":"22","is_sknt":"0","tithi":"14","moonsign":"5","sunsign":"5","paksha":"1","nakshetra":"11","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"23","is_sknt":"0","tithi":"0","moonsign":"5","sunsign":"5","paksha":"1","nakshetra":"12","lmonth":"5"}</item>
+        <item>{"ta_fc":"39","dt":"10","ldt":"24","is_sknt":"0","tithi":"1","moonsign":"6","sunsign":"5","paksha":"0","nakshetra":"13","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"25","is_sknt":"0","tithi":"2|3","moonsign":"6","sunsign":"5","paksha":"0","nakshetra":"14","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"26","is_sknt":"0","tithi":"4","moonsign":"7","sunsign":"5","paksha":"0","nakshetra":"15","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"13","ldt":"27","is_sknt":"0","tithi":"5","moonsign":"7","sunsign":"5","paksha":"0","nakshetra":"16","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"28","is_sknt":"0","tithi":"5","moonsign":"7","sunsign":"5","paksha":"0","nakshetra":"17","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"29","is_sknt":"0","tithi":"6","moonsign":"8","sunsign":"5","paksha":"0","nakshetra":"18","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"30","is_sknt":"0","tithi":"7","moonsign":"8","sunsign":"5","paksha":"0","nakshetra":"19","lmonth":"5"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"1","is_sknt":"1","tithi":"8","moonsign":"9","sunsign":"6","paksha":"0","nakshetra":"20","lmonth":"6"}</item>
+        <item>{"ta_fc":"40|41","dt":"18","ldt":"2","is_sknt":"0","tithi":"9","moonsign":"9","sunsign":"6","paksha":"0","nakshetra":"21","lmonth":"6"}</item>
+        <item>{"ta_fc":"42","dt":"19","ldt":"3","is_sknt":"0","tithi":"10","moonsign":"9","sunsign":"6","paksha":"0","nakshetra":"22","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"4","is_sknt":"0","tithi":"11","moonsign":"10","sunsign":"6","paksha":"0","nakshetra":"23","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"5","is_sknt":"0","tithi":"12","moonsign":"10","sunsign":"6","paksha":"0","nakshetra":"23","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"6","is_sknt":"0","tithi":"13","moonsign":"11","sunsign":"6","paksha":"0","nakshetra":"24","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"23","ldt":"7","is_sknt":"0","tithi":"14","moonsign":"11","sunsign":"6","paksha":"0","nakshetra":"25","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"8","is_sknt":"0","tithi":"15","moonsign":"11","sunsign":"6","paksha":"0","nakshetra":"26","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"9","is_sknt":"0","tithi":"1","moonsign":"0","sunsign":"6","paksha":"1","nakshetra":"0","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"10","is_sknt":"0","tithi":"2","moonsign":"0","sunsign":"6","paksha":"1","nakshetra":"1","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"11","is_sknt":"0","tithi":"3","moonsign":"1","sunsign":"6","paksha":"1","nakshetra":"2","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"12","is_sknt":"0","tithi":"4","moonsign":"1","sunsign":"6","paksha":"1","nakshetra":"3","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"13","is_sknt":"0","tithi":"5","moonsign":"2","sunsign":"6","paksha":"1","nakshetra":"4","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"14","is_sknt":"0","tithi":"6","moonsign":"2","sunsign":"6","paksha":"1","nakshetra":"5|6","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"31","ldt":"15","is_sknt":"0","tithi":"7","moonsign":"3","sunsign":"6","paksha":"1","nakshetra":"7","lmonth":"6"}</item>
+    </string-array>
+
+    <string-array name="cal201811" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"16","is_sknt":"0","tithi":"8","moonsign":"3","sunsign":"6","paksha":"1","nakshetra":"8","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"17","is_sknt":"0","tithi":"9|10","moonsign":"4","sunsign":"6","paksha":"1","nakshetra":"9","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"18","is_sknt":"0","tithi":"11","moonsign":"4","sunsign":"6","paksha":"1","nakshetra":"10","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"19","is_sknt":"0","tithi":"12","moonsign":"5","sunsign":"6","paksha":"1","nakshetra":"11","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"20","is_sknt":"0","tithi":"13","moonsign":"5","sunsign":"6","paksha":"1","nakshetra":"12","lmonth":"6"}</item>
+        <item>{"ta_fc":"43","dt":"6","ldt":"21","is_sknt":"0","tithi":"14","moonsign":"5","sunsign":"6","paksha":"1","nakshetra":"13","lmonth":"6"}</item>
+        <item>{"ta_fc":"44","dt":"7","ldt":"22","is_sknt":"0","tithi":"0","moonsign":"6","sunsign":"6","paksha":"1","nakshetra":"14","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"23","is_sknt":"0","tithi":"1","moonsign":"6","sunsign":"6","paksha":"0","nakshetra":"15","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"24","is_sknt":"0","tithi":"2","moonsign":"7","sunsign":"6","paksha":"0","nakshetra":"16","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"25","is_sknt":"0","tithi":"3","moonsign":"7","sunsign":"6","paksha":"0","nakshetra":"17","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"26","is_sknt":"0","tithi":"4","moonsign":"8","sunsign":"6","paksha":"0","nakshetra":"18","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"27","is_sknt":"0","tithi":"5","moonsign":"8","sunsign":"6","paksha":"0","nakshetra":"19","lmonth":"6"}</item>
+        <item>{"ta_fc":"45","dt":"13","ldt":"28","is_sknt":"0","tithi":"6","moonsign":"8","sunsign":"6","paksha":"0","nakshetra":"20","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"29","is_sknt":"0","tithi":"7","moonsign":"9","sunsign":"6","paksha":"0","nakshetra":"20","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"30","is_sknt":"0","tithi":"7","moonsign":"9","sunsign":"6","paksha":"0","nakshetra":"21","lmonth":"6"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"1","is_sknt":"1","tithi":"8","moonsign":"10","sunsign":"7","paksha":"0","nakshetra":"22","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"2","is_sknt":"0","tithi":"9","moonsign":"10","sunsign":"7","paksha":"0","nakshetra":"23","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"3","is_sknt":"0","tithi":"10","moonsign":"10","sunsign":"7","paksha":"0","nakshetra":"24","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"4","is_sknt":"0","tithi":"11","moonsign":"11","sunsign":"7","paksha":"0","nakshetra":"25","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"5","is_sknt":"0","tithi":"12","moonsign":"11","sunsign":"7","paksha":"0","nakshetra":"26","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"6","is_sknt":"0","tithi":"13","moonsign":"0","sunsign":"7","paksha":"0","nakshetra":"0","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"7","is_sknt":"0","tithi":"14","moonsign":"0","sunsign":"7","paksha":"0","nakshetra":"1","lmonth":"7"}</item>
+        <item>{"ta_fc":"47","dt":"23","ldt":"8","is_sknt":"0","tithi":"15","moonsign":"1","sunsign":"7","paksha":"0","nakshetra":"2","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"9","is_sknt":"0","tithi":"1","moonsign":"1","sunsign":"7","paksha":"1","nakshetra":"3","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"25","ldt":"10","is_sknt":"0","tithi":"2|3","moonsign":"2","sunsign":"7","paksha":"1","nakshetra":"4","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"11","is_sknt":"0","tithi":"4","moonsign":"2","sunsign":"7","paksha":"1","nakshetra":"5","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"12","is_sknt":"0","tithi":"5","moonsign":"2","sunsign":"7","paksha":"1","nakshetra":"6","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"13","is_sknt":"0","tithi":"6","moonsign":"3","sunsign":"7","paksha":"1","nakshetra":"7","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"14","is_sknt":"0","tithi":"7","moonsign":"3","sunsign":"7","paksha":"1","nakshetra":"8","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"15","is_sknt":"0","tithi":"8","moonsign":"4","sunsign":"7","paksha":"1","nakshetra":"9|10","lmonth":"7"}</item>
+    </string-array>
+
+    <string-array name="cal201812" translatable="false">
+        <item>{"ta_fc":"0","dt":"1","ldt":"16","is_sknt":"0","tithi":"9","moonsign":"4","sunsign":"7","paksha":"1","nakshetra":"11","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"2","ldt":"17","is_sknt":"0","tithi":"10","moonsign":"5","sunsign":"7","paksha":"1","nakshetra":"12","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"3","ldt":"18","is_sknt":"0","tithi":"11","moonsign":"5","sunsign":"7","paksha":"1","nakshetra":"13","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"4","ldt":"19","is_sknt":"0","tithi":"12","moonsign":"6","sunsign":"7","paksha":"1","nakshetra":"14","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"5","ldt":"20","is_sknt":"0","tithi":"13","moonsign":"6","sunsign":"7","paksha":"1","nakshetra":"15","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"6","ldt":"21","is_sknt":"0","tithi":"14","moonsign":"7","sunsign":"7","paksha":"1","nakshetra":"16","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"7","ldt":"22","is_sknt":"0","tithi":"0","moonsign":"7","sunsign":"7","paksha":"1","nakshetra":"17","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"8","ldt":"23","is_sknt":"0","tithi":"1","moonsign":"7","sunsign":"7","paksha":"0","nakshetra":"17","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"9","ldt":"24","is_sknt":"0","tithi":"2","moonsign":"8","sunsign":"7","paksha":"0","nakshetra":"18","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"10","ldt":"25","is_sknt":"0","tithi":"3","moonsign":"8","sunsign":"7","paksha":"0","nakshetra":"19","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"11","ldt":"26","is_sknt":"0","tithi":"4","moonsign":"9","sunsign":"7","paksha":"0","nakshetra":"20","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"12","ldt":"27","is_sknt":"0","tithi":"5","moonsign":"9","sunsign":"7","paksha":"0","nakshetra":"21","lmonth":"7"}</item>
+        <item>{"ta_fc":"46","dt":"13","ldt":"28","is_sknt":"0","tithi":"6","moonsign":"9","sunsign":"7","paksha":"0","nakshetra":"22","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"14","ldt":"29","is_sknt":"0","tithi":"7","moonsign":"10","sunsign":"7","paksha":"0","nakshetra":"23","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"15","ldt":"30","is_sknt":"0","tithi":"8","moonsign":"10","sunsign":"7","paksha":"0","nakshetra":"24","lmonth":"7"}</item>
+        <item>{"ta_fc":"0","dt":"16","ldt":"1","is_sknt":"1","tithi":"9","moonsign":"11","sunsign":"8","paksha":"0","nakshetra":"25","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"17","ldt":"2","is_sknt":"0","tithi":"9","moonsign":"11","sunsign":"8","paksha":"0","nakshetra":"26","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"18","ldt":"3","is_sknt":"0","tithi":"10","moonsign":"0","sunsign":"8","paksha":"0","nakshetra":"0","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"19","ldt":"4","is_sknt":"0","tithi":"11","moonsign":"0","sunsign":"8","paksha":"0","nakshetra":"1","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"20","ldt":"5","is_sknt":"0","tithi":"12|13","moonsign":"1","sunsign":"8","paksha":"0","nakshetra":"2","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"21","ldt":"6","is_sknt":"0","tithi":"14","moonsign":"1","sunsign":"8","paksha":"0","nakshetra":"3","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"22","ldt":"7","is_sknt":"0","tithi":"15","moonsign":"1","sunsign":"8","paksha":"0","nakshetra":"4","lmonth":"8"}</item>
+        <item>{"ta_fc":"2","dt":"23","ldt":"8","is_sknt":"0","tithi":"1","moonsign":"2","sunsign":"8","paksha":"1","nakshetra":"5","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"24","ldt":"9","is_sknt":"0","tithi":"2","moonsign":"2","sunsign":"8","paksha":"1","nakshetra":"6","lmonth":"8"}</item>
+        <item>{"ta_fc":"53","dt":"25","ldt":"10","is_sknt":"0","tithi":"3","moonsign":"3","sunsign":"8","paksha":"1","nakshetra":"7","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"26","ldt":"11","is_sknt":"0","tithi":"4","moonsign":"3","sunsign":"8","paksha":"1","nakshetra":"8","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"27","ldt":"12","is_sknt":"0","tithi":"5|6","moonsign":"4","sunsign":"8","paksha":"1","nakshetra":"9","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"28","ldt":"13","is_sknt":"0","tithi":"7","moonsign":"4","sunsign":"8","paksha":"1","nakshetra":"10","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"29","ldt":"14","is_sknt":"0","tithi":"8","moonsign":"5","sunsign":"8","paksha":"1","nakshetra":"11","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"30","ldt":"15","is_sknt":"0","tithi":"9","moonsign":"5","sunsign":"8","paksha":"1","nakshetra":"12","lmonth":"8"}</item>
+        <item>{"ta_fc":"0","dt":"31","ldt":"16","is_sknt":"0","tithi":"10","moonsign":"6","sunsign":"8","paksha":"1","nakshetra":"13","lmonth":"8"}</item>
+    </string-array>
+
+
+    <!--
+  https://en.wikipedia.org/wiki/Hindu_calendar#Another_kind_of_lunisolar_calendar
+  https://en.wikipedia.org/wiki/Amavasya
+  https://en.wikipedia.org/wiki/Tithi
+  https://en.wikipedia.org/wiki/Ritu_(Indian_season)
+  https://en.wikipedia.org/wiki/Muhurta
+  // add ritu/season
+  -->
+
+</resources>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/mainCntr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <!--fragment
+            android:id="@+id/youtube_fragment"
+            android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            /-->
+
+
+        <FrameLayout
+            android:id="@+id/fabcntr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playerCntr">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="@android:color/white"
+                android:scrollbars="none" />
+
+
+            <com.iexamcenter.odiacalendar.utility.MovableFloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_share"
+                android:tint="@android:color/white"
+                android:visibility="gone"
+                app:backgroundTint="@color/main"
+                app:borderWidth="0dp"
+                app:elevation="6dp"
+                app:fabSize="normal" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

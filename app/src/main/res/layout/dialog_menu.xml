@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/nextPrevCont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:gravity="center"
+            android:text="SELECT"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <NumberPicker
+                android:theme="@style/AppTheme.Picker"
+                android:id="@+id/yearPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants" />
+
+            <NumberPicker
+                android:theme="@style/AppTheme.Picker"
+                android:id="@+id/monthPicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:descendantFocusability="blocksDescendants" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:drawableTint="@color/white"
+            android:gravity="center"
+            android:text="Go"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</FrameLayout>

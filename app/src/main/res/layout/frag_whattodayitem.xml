@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rashiphalaList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:scrollbars="none"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/pick_my_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/refresh"
+        android:textColor="@color/main"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</FrameLayout>

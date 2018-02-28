@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="quote_filter" translatable="false">
+        <item>Category</item>
+        <item>All Authors</item>
+        <item>Indian Authors</item>
+    </string-array>
+    <string-array name="cat" translatable="false">
+        <item>Top Quotes</item>
+        <item>Good Morning</item>
+        <item>Good Night</item>
+        <item>Birthday</item>
+        <item>Inspirational</item>
+        <item>Love</item>
+        <item>Motivational</item>
+        <item>Life</item>
+        <item>Friendship</item>
+        <item>Funny</item>
+        <item>Positive</item>
+        <item>Smile</item>
+        <item>Leadership</item>
+        <item>Family</item>
+        <item>Friendship</item>
+    </string-array>
+    <string-array name="auth" translatable="false">
+        <item>1|A. P. J. Abdul Kalam|A._P._J._Abdul_Kalam|https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Apj_abdul_kalam.JPG/460px-Apj_abdul_kalam.JPG</item>
+        <item>0|Abraham Lincoln|Abraham_Lincoln|https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/440px-Abraham_Lincoln_O-77_matte_collodion_print.jpg</item>
+        <item>0|Albert Einstein|Albert_Einstein|https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/440px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg</item>
+        <item>0|Aristotle|Aristotle|https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/440px-Aristotle_Altemps_Inv8575.jpg</item>
+        <item>1|Atal Bihari Vajpayee|Atal_Bihari_Vajpayee|https://upload.wikimedia.org/wikipedia/commons/8/87/Ab_vajpayee.jpg</item>
+        <item>1|B. R. Ambedkar|B._R._Ambedkar|https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Dr._Bhim_Rao_Ambedkar.jpg/440px-Dr._Bhim_Rao_Ambedkar.jpg</item>
+        <item>0|Barack Obama|Barack_Obama|https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/440px-President_Barack_Obama.jpg</item>
+        <item>0|Benjamin Franklin|Benjamin_Franklin|https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg/440px-Benjamin_Franklin_by_Joseph_Duplessis_1778.jpg</item>
+        <item>1|Bhagat Singh|Bhagat_Singh|https://upload.wikimedia.org/wikipedia/commons/9/9b/Bhagat_Singh_1929_140x190.jpg</item>
+        <item>0|Buddha|Gautama_Buddha|https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/440px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg</item>
+        <item>0|C. S. Lewis|C._S._Lewis|https://upload.wikimedia.org/wikipedia/en/1/1e/C.s.lewis3.JPG</item>
+        <item>1|C. V. Raman|C._V._Raman|https://upload.wikimedia.org/wikipedia/commons/e/e6/Sir_CV_Raman.JPG</item>
+        <item>1|Chanakya|Chanakya|https://upload.wikimedia.org/wikipedia/commons/c/cd/Chanakya_artistic_depiction.jpg</item>
+        <item>0|Confucius|Confucius|https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/%E5%AD%94%E5%AD%90%E8%81%96%E8%B9%9F%E5%9C%96.png/440px-%E5%AD%94%E5%AD%90%E8%81%96%E8%B9%9F%E5%9C%96.png</item>
+        <item>0|Dalai Lama|Dalai_Lama|https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Dalailama1_20121014_4639.jpg/440px-Dalailama1_20121014_4639.jpg</item>
+        <item>1|Dayananda Saraswati|Dayananda_Saraswati|https://upload.wikimedia.org/wikipedia/commons/e/ea/Dayananda_Saraswati.jpg</item>
+        <item>0|Donald Trump|Donald_Trump|https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Official_Portrait_of_President_Donald_Trump.jpg/440px-Official_Portrait_of_President_Donald_Trump.jpg</item>
+        <item>0|Edgar Allan Poe|Edgar_Allan_Poe|https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Edgar_Allan_Poe_daguerreotype_crop.png/400px-Edgar_Allan_Poe_daguerreotype_crop.png</item>
+        <item>0|Eleanor Roosevelt|Eleanor_Roosevelt|https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eleanor_Roosevelt_portrait_1933.jpg/440px-Eleanor_Roosevelt_portrait_1933.jpg        </item>
+        <item>0|Ernest Hemingway|Ernest_Hemingway|https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/ErnestHemingway.jpg/440px-ErnestHemingway.jpg</item>
+        <item>0|Friedrich Nietzsche|Friedrich_Nietzsche|https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/440px-Nietzsche187a.jpg</item>
+        <item>0|Henry David Thoreau|Henry_David_Thoreau|https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/440px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg</item>
+        <item>1|Indira Gandhi|Indira_Gandhi|https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Indira_Gandhi_1977.jpg/440px-Indira_Gandhi_1977.jpg</item>
+        <item>1|Jawaharlal Nehru|Jawaharlal_Nehru|https://upload.wikimedia.org/wikipedia/commons/5/5f/Jnehru.jpg</item>
+        <item>1|Jiddu Krishnamurti|Jiddu_Krishnamurti|https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jiddu_Krishnamurti_01.jpg/500px-Jiddu_Krishnamurti_01.jpg</item>
+        <item>0|John F. Kennedy|John_F._Kennedy|https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/John_F._Kennedy%2C_White_House_photo_portrait%2C_looking_up.jpg/440px-John_F._Kennedy%2C_White_House_photo_portrait%2C_looking_up.jpg</item>
+        <item>0|Khalil Gibran|Kahlil_Gibran|https://upload.wikimedia.org/wikipedia/commons/8/87/Khalil_Gibran.jpg</item>
+        <item>1|Lal Bahadur Shastri|Lal_Bahadur_Shastri|https://upload.wikimedia.org/wikipedia/commons/4/45/Lal_Bahadur_Shastri_%28cropped%29.jpg</item>
+        <item>0|Lao Tzu|Laozi|https://images.gr-assets.com/authors/1435903703p5/2622245.jpg</item>
+        <item>1|Maharishi Mahesh Yogi|Maharishi_Mahesh_Yogi|https://upload.wikimedia.org/wikipedia/commons/8/8e/Maharishi_Huntsville_Jan_1978A.JPG</item>
+        <item>1|Mahatma Gandhi|Mahatma_Gandhi|https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Portrait_Gandhi.jpg/440px-Portrait_Gandhi.jpg</item>
+        <item>0|Marcus Aurelius|Marcus_Aurelius|https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marcus_Aurelius_bust_Istanbul_Archaeological_Museum_-_inv._5129_T.jpg/440px-Marcus_Aurelius_bust_Istanbul_Archaeological_Museum_-_inv._5129_T.jpg</item>
+        <item>0|Marilyn Monroe|Marilyn_Monroe|https://upload.wikimedia.org/wikipedia/commons/4/4e/Monroecirca1953.jpg</item>
+        <item>0|Mark Twain|Mark_Twain|https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Mark_Twain%2C_Brady-Handy_photo_portrait%2C_Feb_7%2C_1871%2C_cropped.jpg/440px-Mark_Twain%2C_Brady-Handy_photo_portrait%2C_Feb_7%2C_1871%2C_cropped.jpg</item>
+        <item>0|Martin Luther|Martin_Luther|https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Martin_Luther_by_Cranach-restoration.tif/lossy-page1-440px-Martin_Luther_by_Cranach-restoration.tif.jpg</item>
+        <item>0|Martin Luther King, Jr.|Martin_Luther_King_Jr.|https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Martin-Luther-King-1964-leaning-on-a-lectern.jpg/440px-Martin-Luther-King-1964-leaning-on-a-lectern.jpg</item>
+        <item>0|Maya Angelou|Maya_Angelou|https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Angelou_at_Clinton_inauguration.jpg/440px-Angelou_at_Clinton_inauguration.jpg</item>
+        <item>1|Mother Teresa|Mother_Teresa|https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/MotherTeresa_094.jpg/440px-MotherTeresa_094.jpg</item>
+        <item>0|Muhammad Ali|Muhammad_Ali|https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/440px-Muhammad_Ali_NYWTS.jpg</item>
+        <item>1|Munshi Premchand|Premchand|https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Munshi_Premchand_half_bust_statue.jpg/440px-Munshi_Premchand_half_bust_statue.jpg</item>
+        <item>0|Napoleon Bonaparte|Napoleon|https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/440px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg</item>
+        <item>0|Nelson Mandela|Nelson_Mandela|https://upload.wikimedia.org/wikipedia/commons/1/14/Nelson_Mandela-2008_%28edit%29.jpg</item>
+        <item>0|Oscar Wilde|Oscar_Wilde|https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Oscar_Wilde_Sarony.jpg/440px-Oscar_Wilde_Sarony.jpg</item>
+        <item>1|Paramahansa Yogananda|Paramahansa_Yogananda|https://upload.wikimedia.org/wikipedia/commons/3/3f/Paramahansa_Yogananda_Standard_Pose.jpg</item>
+        <item>0|Plato|Plato|https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/440px-Plato_Silanion_Musei_Capitolini_MC1377.jpg</item>
+        <item>1|Rabindranath Tagore|Rabindranath_Tagore|https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Rabindranath_Tagore_unknown_location.jpg/440px-Rabindranath_Tagore_unknown_location.jpg</item>
+        <item>0|Ralph Waldo Emerson|Ralph_Waldo_Emerson|https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ralph_Waldo_Emerson_ca1857_retouched.jpg/440px-Ralph_Waldo_Emerson_ca1857_retouched.jpg</item>
+        <item>1|Ramakrishna|Ramakrishna|https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ramakrishna.jpg/440px-Ramakrishna.jpg</item>
+        <item>1|Ramana Maharshi|Ramana_Maharshi|https://upload.wikimedia.org/wikipedia/commons/4/4c/Sri_Ramana_Maharshi_-_Portrait_-_G._G_Welling_-_1948.jpg</item>
+        <item>0|Ronald Reagan|Ronald_Reagan|https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/440px-Official_Portrait_of_President_Reagan_1981.jpg</item>
+        <item>0|Rumi|Rumi|https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/%C4%B0zmir_Buca_Mevlana_heykeli_ve_mesire_alan%C4%B1_5.jpg/440px-%C4%B0zmir_Buca_Mevlana_heykeli_ve_mesire_alan%C4%B1_5.jpg</item>
+        <item>1|Shirdi Sai Baba|Sai_Baba_of_Shirdi|https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shirdi_Sai_Baba_3.jpg/440px-Shirdi_Sai_Baba_3.jpg</item>
+        <item>1|Satyajit Ray|Satyajit_Ray|https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Satyajit_Ray_in_New_York.jpg/440px-Satyajit_Ray_in_New_York.jpg</item>
+        <item>1|Shakuntala Devi|Shakuntala_Devi|https://upload.wikimedia.org/wikipedia/en/f/f6/Shakuntala_Devi.jpg</item>
+        <item>0|Socrates|Socrates|https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/440px-Socrates_Louvre.jpg</item>
+        <item>0|Steve Jobs|Steve_Jobs|https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steve_Jobs_Headshot_2010-CROP.jpg/440px-Steve_Jobs_Headshot_2010-CROP.jpg</item>
+        <item>0|Steven Wright|Steven_Wright|https://upload.wikimedia.org/wikipedia/commons/6/68/Steven_Wright_1994.jpg</item>
+        <item>1|Subhas Chandra Bose|Subhas_Chandra_Bose|https://upload.wikimedia.org/wikipedia/commons/7/7e/Netaji_Subhas_Chandra_Bose.jpg</item>
+        <item>1|Subrahmanyan Chandrasekhar|Subrahmanyan_Chandrasekhar|https://upload.wikimedia.org/wikipedia/en/3/3a/ChandraNobel.png</item>
+        <item>0|Sun Tzu|Sun_Tzu|https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Enchoen27n3200.jpg/440px-Enchoen27n3200.jpg</item>
+        <item>1|Swami Sivananda|Sivananda_Saraswati|https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Krishnananda_and_Sivananda_1945.jpg/440px-Krishnananda_and_Sivananda_1945.jpg</item>
+        <item>1|Swami Vivekananda|Swami_Vivekananda|https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Swami_Vivekananda-1893-09-signed.jpg/440px-Swami_Vivekananda-1893-09-signed.jpg</item>
+        <item>0|Theodore Roosevelt|Theodore_Roosevelt|https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/President_Roosevelt_-_Pach_Bros.tif/lossy-page1-440px-President_Roosevelt_-_Pach_Bros.tif.jpg</item>
+        <item>0|Thomas Jefferson|Thomas_Jefferson|https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg/440px-Official_Presidential_portrait_of_Thomas_Jefferson_%28by_Rembrandt_Peale%2C_1800%29.jpg</item>
+        <item>0|Voltaire|Voltaire|https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Nicolas_de_Largilli%C3%A8re%2C_Fran%C3%A7ois-Marie_Arouet_dit_Voltaire_%28vers_1724-1725%29_-001.jpg/440px-Nicolas_de_Largilli%C3%A8re%2C_Fran%C3%A7ois-Marie_Arouet_dit_Voltaire_%28vers_1724-1725%29_-001.jpg</item>
+        <item>0|Walt Disney|Walt_Disney|https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Walt_Disney_1946.JPG/440px-Walt_Disney_1946.JPG</item>
+        <item>0|Warren Buffett|Warren_Buffett|https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit.jpg/440px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit.jpg</item>
+        <item>0|William Shakespeare|William_Shakespeare|https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/440px-Shakespeare.jpg</item>
+        <item>0|Winston Churchill|Winston_Churchill|https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sir_Winston_Churchill_-_19086236948.jpg/500px-Sir_Winston_Churchill_-_19086236948.jpg</item>
+    </string-array>
+    <string-array name="bestquote"  translatable="false">
+        <item>Indira Gandhi@You cannot shake hands with a clenched fist.</item>
+        <item>Swami Vivekananda@Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.</item>
+        <item>A. P. J. Abdul Kalam@Let us sacrifice our today so that our children can have a better tomorrow.</item>
+        <item>Winston Churchill@Success is not final, failure is not fatal: it is the courage to continue that counts.</item>
+        <item>William Shakespeare@We know what we are, but know not what we may be.</item>
+        <item>Walt Disney@All our dreams can come true, if we have the courage to pursue them.</item>
+        <item>Voltaire@God gave us the gift of life; it is up to us to give ourselves the gift of living well.</item>
+        <item>Thomas Jefferson@Honesty is the first chapter in the book of wisdom.</item>
+        <item>Theodore Roosevelt@Believe you can and you\'re halfway there.</item>
+        <item>Sun Tzu@The supreme art of war is to subdue the enemy without fighting.</item>
+        <item>Socrates@The only true wisdom is in knowing you know nothing.</item>
+        <item>Ralph Waldo Emerson@Do not go where the path may lead, go instead where there is no path and leave a trail.</item>
+        <item>Plato@Wise men speak because they have something to say; Fools because they have to say something.</item>
+        <item>Oscar Wilde@Keep love in your heart. A life without it is like a sunless garden when the flowers are dead.</item>
+        <item>Nelson Mandela@Education is the most powerful weapon which you can use to change the world.</item>
+        <item>Mother Teresa@Spread love everywhere you go. Let no one ever come to you without leaving happier.</item>
+        <item>Maya Angelou@Try to be a rainbow in someone\'s cloud.</item>
+        <item>Martin Luther King, Jr.@Life\'s most persistent and urgent question is, \'What are you doing for others?\'</item>
+        <item>Mark Twain@The secret of getting ahead is getting started.</item>
+        <item>Marcus Aurelius@Very little is needed to make a happy life; it is all within yourself, in your way of thinking.</item>
+        <item>Mahatma Gandhi@Where there is love there is life.</item>
+        <item>Lao Tzu@The journey of a thousand miles begins with one step.</item>
+        <item>Khalil Gibran@Life without love is like a tree without blossoms or fruit.</item>
+        <item>John F. Kennedy@As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.</item>
+        <item>Henry David Thoreau@It\'s not what you look at that matters, it\'s what you see.</item>
+        <item>Friedrich Nietzsche@We love life, not because we are used to living but because we are used to loving.</item>
+        <item>Ernest Hemingway@But man is not made for defeat. A man can be destroyed but not defeated.</item>
+        <item>Eleanor Roosevelt@The future belongs to those who believe in the beauty of their dreams.</item>
+        <item>Edgar Allan Poe@All that we see or seem is but a dream within a dream.</item>
+        <item>Confucius@Everything has beauty, but not everyone sees it.</item>
+        <item>Buddha@Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.</item>
+        <item>Benjamin Franklin@Tell me and I forget. Teach me and I remember. Involve me and I learn.</item>
+        <item>Aristotle@It is during our darkest moments that we must focus to see the light.</item>
+        <item>Aristotle@Love is composed of a single soul inhabiting two bodies.</item>
+        <item>Albert Einstein@You can\'t blame gravity for falling in love.</item>
+        <item>John Keats@I love you the more in that I believe you had liked me for my own sake and for nothing else.</item>
+        <item>Franklin D. Roosevelt@When you reach the end of your rope, tie a knot in it and hang on.</item>
+        <item>Heraclitus@There is nothing permanent except change.</item>
+        <item>Niccolo Machiavelli@It is better to be feared than loved, if you cannot be both.</item>
+        <item>Amelia Earhart@The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.</item>
+        <item>Henry James@Do not mind anything that anyone tells you about anyone else. Judge everyone and everything for yourself.</item>
+        <item>Leonardo da Vinci@Learning never exhausts the mind.</item>
+        <item>Jane Austen@There is no charm equal to tenderness of heart.</item>
+        <item>Francis of Assisi@Lord, make me an instrument of thy peace. Where there is hatred, let me sow love.</item>
+        <item>Rainer Maria Rilke@The only journey is the one within.</item>
+        <item>Will Rogers@Good judgment comes from experience, and a lot of that comes from bad judgment.</item>
+        <item>William Blake@Think in the morning. Act in the noon. Eat in the evening. Sleep in the night.</item>
+        <item>Khalil Gibran@Life without love is like a tree without blossoms or fruit.</item>
+        <item>Aesop@No act of kindness, no matter how small, is ever wasted.</item>
+        <item>Karl A. Menninger@Love cures people - both the ones who give it and the ones who receive it.</item>
+        <item>Satchel Paige@Work like you don\'t need the money. Love like you\'ve never been hurt. Dance like nobody\'s watching.</item>
+        <item>George Washington@It is far better to be alone, than to be in bad company.</item>
+        <item>Napoleon Hill@If you cannot do great things, do small things in a great way.</item>
+        <item>Thomas Carlyle@Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak.</item>
+        <item>Susan B. Anthony@Independence is happiness.</item>
+        <item>Sun Tzu@The supreme art of war is to subdue the enemy without fighting.</item>
+        <item>Walt Whitman@Keep your face always toward the sunshine - and shadows will fall behind you.</item>
+        <item>Sigmund Freud@Being entirely honest with oneself is a good exercise.</item>
+        <item>George Orwell@Happiness can exist only in acceptance.</item>
+        <item>John Galsworthy@Love has no age, no limit; and no death.</item>
+        <item>Aldous Huxley@There is only one corner of the universe you can be certain of improving, and that\'s your own self.</item>
+        <item>Thomas Jefferson@Honesty is the first chapter in the book of wisdom.</item>
+        <item>Lao Tzu@The journey of a thousand miles begins with one step.</item>
+        <item>H. Jackson Brown, Jr.@The best preparation for tomorrow is doing your best today.</item>
+        <item>Jesus Christ@A new command I give you: Love one another. As I have loved you, so you must love one another.</item>
+        <item>Edith Wharton@There are two ways of spreading light: to be the candle or the mirror that reflects it.</item>
+        <item>Samuel Beckett@Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.</item>
+        <item>Voltaire@God gave us the gift of life; it is up to us to give ourselves the gift of living well.</item>
+        <item>Henry Ford@Coming together is a beginning; keeping together is progress; working together is success.</item>
+        <item>Simone de Beauvoir@Change your life today. Don\'t gamble on the future, act now, without delay.</item>
+        <item>J. R. R. Tolkien@Not all those who wander are lost.</item>
+        <item>Anne Frank@Whoever is happy will make others happy too.</item>
+        <item>Thomas A. Edison@I have not failed. I\'ve just found 10,000 ways that won\'t work.</item>
+        <item>Benjamin Franklin@Tell me and I forget. Teach me and I remember. Involve me and I learn.</item>
+        <item>Thomas Aquinas@There is nothing on this earth more to be prized than true friendship.</item>
+        <item>John C. Maxwell@A leader is one who knows the way, goes the way, and shows the way.</item>
+        <item>George Sand@There is only one happiness in this life, to love and be loved.</item>
+        <item>Milton Berle@If opportunity doesn\'t knock, build a door.</item>
+        <item>Mark Twain@The secret of getting ahead is getting started.</item>
+        <item>Marcel Proust@Let us be grateful to people who make us happy, they are the charming gardeners who make our souls blossom.</item>
+        <item>Margaret Mead@Always remember that you are absolutely unique. Just like everyone else.</item>
+        <item>Thomas Paine@The World is my country, all mankind are my brethren, and to do good is my religion.</item>
+        <item>Viktor E. Frankl@When we are no longer able to change a situation - we are challenged to change ourselves.</item>
+        <item>Robert H. Schuller@Problems are not stop signs, they are guidelines.</item>
+        <item>Plutarch@What we achieve inwardly will change outer reality.</item>
+        <item>Henry David Thoreau@It\'s not what you look at that matters, it\'s what you see.</item>
+        <item>Leo Buscaglia@A single rose can be my garden... a single friend, my world.</item>
+        <item>Euripides@Friends show their love in times of trouble, not in happiness.</item>
+        <item>Desmond Tutu@You don\'t choose your family. They are God\'s gift to you, as you are to them.</item>
+        <item>Soren Kierkegaard@Life is not a problem to be solved, but a reality to be experienced.</item>
+        <item>George Bernard Shaw@Life isn\'t about finding yourself. Life is about creating yourself.</item>
+        <item>Socrates@The only true wisdom is in knowing you know nothing.</item>
+        <item>Ingrid Bergman@A kiss is a lovely trick designed by nature to stop speech when words become superfluous.</item>
+        <item>Judy Garland@For it was not into my ear you whispered, but into my heart. It was not my lips you kissed, but my soul.</item>
+        <item>A. A. Milne@If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.</item>
+        <item>John F. Kennedy@As we express our gratitude, we must never forget that the highest appreciation is not to utter words, but to live by them.</item>
+        <item>Martin Luther King, Jr.@Life\'s most persistent and urgent question is, \'What are you doing for others?\'</item>
+        <item>Democritus@Happiness resides not in possessions, and not in gold, happiness dwells in the soul.</item>
+        <item>William Arthur Ward@The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails.</item>
+        <item>Dr. Seuss@Today you are you! That is truer than true! There is no one alive who is you-er than you!</item>
+        <item>Norman Vincent Peale@Change your thoughts and you change your world.</item>
+        <item>Robert Frost@In three words I can sum up everything I\'ve learned about life: it goes on.</item>
+        <item>Loretta Young@Love isn\'t something you find. Love is something that finds you.</item>
+        <item>Albert Camus@Don\'t walk behind me; I may not lead. Don\'t walk in front of me; I may not follow. Just walk beside me and be my friend.</item>
+        <item>Og Mandino@Do all things with love.</item>
+        <item>Lucius Annaeus Seneca@One of the most beautiful qualities of true friendship is to understand and to be understood.</item>
+        <item>Edmund Burke@The only thing necessary for the triumph of evil is for good men to do nothing.</item>
+        <item>Robert Louis Stevenson@Don\'t judge each day by the harvest you reap but by the seeds that you plant.</item>
+        <item>Audrey Hepburn@Nothing is impossible, the word itself says \'I\'m possible\'!</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,587 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_omg">Omg</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_weather">Weather</string>
+    <string name="nav_event">Event</string>
+    <string-array name="tab_home">
+        <item>Today</item>
+        <item>OnThisDay</item>
+        <item>Horoscope</item>
+        <item>Muhurta</item>
+    </string-array>
+    <string-array name="tab_omg">
+        <item>News</item>
+        <item>Prayer</item>
+        <item>Quote</item>
+        <item>Articles</item>
+    </string-array>
+    <string-array name="tab_calendar">
+        <item>Calendar</item>
+    </string-array>
+    <string-array name="tab_weather">
+        <item>Now</item>
+        <item>Forecast</item>
+        <item>Satellite</item>
+        <item>Sun&amp;Moon</item>
+    </string-array>
+    <string-array name="tab_event">
+        <item>Event</item>
+    </string-array>
+    <string name="set_loc" translatable="false">Please turn on LOCATION service \n from device settings &amp; try again.</string>
+
+    <string name="press_exit" translatable="false">Press again to exit</string>
+
+    <string name="loc_not_found" translatable="false">Looking location..</string>
+
+    <string name="app_not_found" translatable="false">Sorry, App not found.</string>
+
+    <string name="share_title" translatable="false">Calendar &amp; Weather - Android App on Google Play</string>
+
+    <string name="share_desc" translatable="false">Calendar &amp; Weather, provides information for today calendar &amp; current weather.</string>
+
+    <string name="turn_loc" translatable="false">Please turn on LOCATION  \n in device settings.</string>
+    <string name="refresh" translatable="false">Seems something wrong!\n Please check connection &amp; tap here.</string>
+    <string name="no_result" translatable="false">Seems something wrong!\n No result found yet.</string>
+    <string name="version" translatable="false">Version-</string>
+
+    <string name="internet_required" translatable="false">Internet require to update app.</string>
+
+    <string name="enable_try" translatable="false">Please enable location &amp; try again.</string>
+
+    <string name="try_more" translatable="false">Please try again.</string>
+    <string name="no_internet" translatable="false">Please check internet.</string>
+
+    <string name="lochelp" translatable="false">To get sunrise &amp; sunset, moonrise &amp; moonset, weather forecast of your location.
+    Allow Calendar &amp; Weather app to know your location once.</string>
+
+
+    <string name="facebook_app_id" translatable="false">338251106549710</string>
+    <string name="app_id" translatable="false">ca-app-pub-0468973186456664~6423238219</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-0468973186456664/3330171010</string>
+    <string name="interstitials_ad_unit_id" translatable="false">ca-app-pub-0468973186456664/6283637413</string>
+
+    <string name="google_appid" translatable="false">273306593526</string>
+    <string name="android_key" translatable="false">AIzaSyBqmEkATbKBAZpwx9iHL5e0Qbo-zRH1StI</string>
+    <!--
+        <string name="app_name" translatable="false">Calendar &amp; Weather</string>
+        -->
+
+    <string name="app_name" translatable="false">Calendar &amp; Weather</string>
+
+    <string name="mincal" translatable="false">2016</string>
+    <string name="maxcal" translatable="false">2018</string>
+    <string name="appupdatenotif" translatable="false">2017</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string-array name="publication"></string-array>
+    <string-array name="tab_title" translatable="false">
+        <item name="today">Today</item>
+
+        <item name="calendar">Calendar</item>
+        <item name="festival">Festival</item>
+        <item name="sunmoon">Sun&amp;Moon</item>
+        <item name="photocopy">Photo</item>
+
+    </string-array>
+
+
+    <string name="code_bengali" translatable="false">bn</string>
+    <string name="code_gujarati" translatable="false">gu</string>
+    <string name="code_hindi" translatable="false">hi</string>
+    <string name="code_kannada" translatable="false">kn</string>
+    <string name="code_malayalam" translatable="false">ml</string>
+    <string name="code_marathi" translatable="false">mr</string>
+    <string name="code_odia" translatable="false">or</string>
+    <string name="code_punjabi" translatable="false">pa</string>
+    <string name="code_tamil" translatable="false">ta</string>
+    <string name="code_telugu" translatable="false">te</string>
+    <string name="code_english" translatable="false">en</string>
+
+
+    <string name="lang_bengali" translatable="false">বাংলা </string>
+    <string name="lang_gujarati" translatable="false">ગુજરાતી </string>
+    <string name="lang_hindi" translatable="false">हिंदी </string>
+    <string name="lang_kannada" translatable="false">ಕನ್ನಡ </string>
+    <string name="lang_malayalam" translatable="false">മലയാളം </string>
+    <string name="lang_marathi" translatable="false">मराठी </string>
+    <string name="lang_odia" translatable="false">ଓଡ଼ିଆ </string>
+    <string name="lang_punjabi" translatable="false">ਪੰਜਾਬੀ </string>
+    <string name="lang_tamil" translatable="false">தமிழ் </string>
+    <string name="lang_telugu" translatable="false">తెలుగు </string>
+    <string name="lang_english" translatable="false">English</string>
+
+    <string name="action_bengali" translatable="false">বাংলা ক্যালেন্ডার</string>
+    <string name="action_gujarati" translatable="false">ગુજરાતી કેલેન્ડર</string>
+    <string name="action_hindi" translatable="false">हिंदी कैलेंडर</string>
+    <string name="action_kannada" translatable="false">ಕನ್ನಡ ಕ್ಯಾಲೆಂಡರ್</string>
+    <string name="action_malayalam" translatable="false">മലയാളം കലണ്ടർ</string>
+    <string name="action_marathi" translatable="false">मराठी कॅलेंडर</string>
+    <string name="action_odia" translatable="false">ଓଡ଼ିଆ କ୍ୟାଲେଣ୍ଡର</string>
+    <string name="action_punjabi" translatable="false">ਪੰਜਾਬੀ ਦੇ ਕੈਲੰਡਰ</string>
+    <string name="action_tamil" translatable="false">தமிழ் காலண்டர்</string>
+    <string name="action_telugu" translatable="false">తెలుగు క్యాలెండర్</string>
+
+    <string name="en_action_bengali" translatable="false">বাংলা (Bengali)</string>
+    <string name="en_action_gujarati" translatable="false">ગુજરાતી (Gujarati)</string>
+    <string name="en_action_hindi" translatable="false">हिंदी (Hindi)</string>
+    <string name="en_action_kannada" translatable="false">ಕನ್ನಡ (Kannada)</string>
+    <string name="en_action_malayalam" translatable="false">മലയാളം (Malayalam)</string>
+    <string name="en_action_marathi" translatable="false">मराठी (Marathi)</string>
+    <string name="en_action_odia" translatable="false">ଓଡ଼ିଆ (Odia)</string>
+    <string name="en_action_punjabi" translatable="false">ਪੰਜਾਬੀ  (Punjabi)</string>
+    <string name="en_action_tamil" translatable="false">தமிழ் (Tamil)</string>
+    <string name="en_action_telugu" translatable="false">తెలుగు (Telugu)</string>
+    <string name="en_action_english" translatable="false">English</string>
+
+
+    <string name="en_page_title1" translatable="false">Weather &amp; Forecast</string>
+    <string name="en_page_title2" translatable="false">Today</string>
+    <string name="en_page_title3" translatable="false">Today Updates</string>
+    <string name="en_page_title4" translatable="false">Monthly Calendar</string>
+    <string name="en_page_title5" translatable="false">Our Festival</string>
+    <string name="en_page_title6" translatable="false">Sun Moon Information</string>
+    <string name="en_page_title7" translatable="false">Calendar Photo</string>
+    <string name="en_page_title8" translatable="false">Event &amp; Calendar</string>
+    <string name="en_page_title9" translatable="false">Notification</string>
+
+    <string name="app_warning" translatable="false">App is not available,do you want to install!</string>
+    <string name="notnow" translatable="false">Not,now!</string>
+    <string name="fragment_profile_openChatValue" translatable="false">Yes</string>
+    <string-array name="header_array" translatable="false">
+        <item>WEATHER</item>
+        <item>MOON FORECAST</item>
+    </string-array>
+
+
+    <string-array name="e_bara_arr" translatable="false">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI </item>
+        <item>SAT</item>
+    </string-array>
+    <string-array name="e_bara_full_arr" translatable="false">
+        <item>SUNDAY</item>
+        <item>MONDAY</item>
+        <item>TUESDAY</item>
+        <item>WEDNESDAY</item>
+        <item>THURSDAY</item>
+        <item>FRIDAY</item>
+        <item>SATURDAY</item>
+    </string-array>
+    <string-array name="e_month_arr" translatable="false">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October </item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="e_month_short_arr" translatable="false">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+    <string-array name="en_ritu_arr" translatable="false">
+        <item>Summer</item>
+        <item>Monsoon</item>
+        <item>Autumn</item>
+        <item>Late-Autumn</item>
+        <item>Winter</item>
+        <item>Spring</item>
+    </string-array>
+    <string-array name="en_rasi_kundali_arr" translatable="false">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpius</item>
+        <item>Sagittarius</item>
+        <item>Capricornus</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+    <string-array name="paksha_arr" translatable="false">
+        <item>Shukla </item>
+        <item>Krishna </item>
+    </string-array>
+
+
+    <string name="o_sankranti">ସଂକ୍ରାନ୍ତି</string>
+    <string name="o_paksha">ପକ୍ଷ୍ୟ</string>
+    <string name="o_bara">ବାର</string>
+    <string name="o_tithi">ତିଥି</string>
+    <string name="o_ritu">ଋତୁ</string>
+    <string name="o_masa">ମାସ</string>
+    <string name="o_festival">ପର୍ବ</string>
+    <string name="o_nakshetra">ନକ୍ଷେତ୍ର</string>
+    <string name="o_sunsign">କୁଣ୍ଡଳି</string>
+    <string name="o_moonsign">ରାଶି</string>
+    <string name="o_sunrise">ସୂର୍ଯ୍ୟୋଦୟ</string>
+    <string name="o_sunset">ସୂର୍ଯ୍ୟାସ୍ତ</string>
+    <string name="o_moonrise">ଚନ୍ଦ୍ରୋଦୟ</string>
+    <string name="o_moonset">ଚନ୍ଦ୍ର ଅସ୍ତ</string>
+    <string name="o_dina">ଦିନ</string>
+    <string name="o_inauspicious">inauspicious</string>
+    <string name="o_auspicious">auspicious</string>
+    <string name="o_veryauspicious">very auspicious</string>
+
+    <string-array name="l_number_arr">
+        <item>௦</item>
+    </string-array>
+    <string-array name="l_paksha_arr">
+        <item>ଶୁକ୍ଳ </item>
+    </string-array>
+    <string-array name="l_masa_arr">
+        <item>वैशाख</item>
+        <item>ज्येष्ठ</item>
+        <item>आषाढ</item>
+        <item>श्रावण</item>
+        <item>भाद्रपद</item>
+        <item>आश्विन</item>
+        <item>कार्तिक</item>
+        <item>मार्गशीर्ष</item>
+        <item>पुष्य</item>
+        <item>माघ </item>
+        <item>फाल्गुन</item>
+        <item>चैत्र</item>
+    </string-array>
+    <string-array name="l_month_arr">
+        <item>जनवरी</item>
+        <item>फरवरी</item>
+        <item>मार्च</item>
+        <item>अप्रेल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई</item>
+        <item>अगस्त</item>
+        <item>सितंबर</item>
+        <item>अक्टूबर</item>
+        <item>नवम्बर</item>
+        <item>दिसंबर</item>
+    </string-array>
+
+    <string-array name="l_bara_arr">
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>गुरुवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+    </string-array>
+    <string-array name="l_rasi_kundali_arr">
+        <item>ମେଷ</item>
+    </string-array>
+    <string-array name="l_nakshatra_arr">
+        <item>କୃତ୍ତିକା</item>
+
+    </string-array>
+
+    <string-array name="l_tithi_arr">
+        <item>ଅମାବାସ୍ୟା</item>
+    </string-array>
+
+    <string name="eng_o_sankranti">Sankranti</string>
+    <string name="eng_o_paksha">Paksha</string>
+    <string name="eng_o_dina">Dina</string>
+    <string name="eng_o_bara">Bara</string>
+    <string name="eng_o_tithi">Tithi</string>
+    <string name="eng_o_ritu">Ritu</string>
+    <string name="eng_o_masa">Masa</string>
+    <string name="eng_o_festival">Parba</string>
+    <string name="eng_o_nakshetra">Nakshetra</string>
+    <string name="eng_o_sunsign">Sunsign</string>
+    <string name="eng_o_moonsign">Moonsign</string>
+    <string name="eng_o_sunrise">Sunrise</string>
+    <string name="eng_o_sunset">Sunset</string>
+    <string name="eng_o_moonrise">Moonrise</string>
+    <string name="eng_o_moonset">Moonset</string>
+
+    <string-array name="masa_arr">
+        <item>Vaiśākha</item>
+    </string-array>
+
+    <string-array name="bara_arr">
+        <item>Rabi</item>
+    </string-array>
+
+
+    <string-array name="rasi_kundali_arr">
+        <item>Meṣa</item>
+    </string-array>
+
+    <string-array name="nakshatra_arr">
+        <item>Krittika</item>
+    </string-array>
+    <string-array name="tithi_arr">
+        <item>Amabasya</item>
+    </string-array>
+    <string-array name="ritu_arr">
+        <item>Grīṣma</item>
+    </string-array>
+    <string-array name="l_ritu_arr">
+        <item>ଗ୍ରୀଷ୍ମ</item>
+    </string-array>
+
+
+    <string-array name="l_festival_arr">
+        <item>{"key":"1","highlight":"1","is_holiday":"1","icon":"ic_holiday_new_year","festival":\""Nav Varsha\"","festivalL":\""नव वर्ष\""}</item>
+        <item>{"key":"2","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"3","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"4","highlight":"1","is_holiday":"1,"icon":"NAME","festival":\""Guru Govind Singh janm\"","festivalL":\""गुरु गोविन्द सिंह जयन्ती \""}</item>
+        <item>{"key":"5","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Shakambhari Yatra prarambh\"","festivalL":\""शाकम्भरी यात्रा प्रारम्भ \""}</item>
+        <item>{"key":"6","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"7","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Putrada Ekadashi\"","festivalL":\""पुत्रदा एकादशी\""}</item>
+        <item>{"key":"8","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"9","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Shakambhari Poornima\"","festivalL":\""शाकम्भरी पूर्णिमा \""}</item>
+        <item>{"key":"10","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Swami Vivekananda Jayanti\"","festivalL":\""स्वामी विवेकानंद जयन्ती \""}</item>
+        <item>{"key":"11","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Snan-Daan Vrat Poornima\"","festivalL":\""स्नान-दान व्रत पूर्णिमा\""}</item>
+        <item>{"key":"12","highlight":"1","is_holiday":"1,"icon":"NAME","festival":\""Lohri Utsav\"","festivalL":\""लोहड़ी \""}</item>
+        <item>{"key":"13","highlight":"1","is_holiday":"1,"icon":"NAME","festival":\""Makara Sankrati/Pongal\"","festivalL":\""मकर संक्रान्ति/पोंगल \""}</item>
+        <item>{"key":"14","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Sankata Ganesh Chaturthi\"","festivalL":\""संकटा गणेश चतुर्थी \""}</item>
+        <item>{"key":"15","highlight":"1","is_holiday":"0,"icon":"ic_holiday_netaji","festival":\""Neta Ji Subhash Jayanti\"","festivalL":\""नेता जी सुभाष जयन्ती \""}</item>
+        <item>{"key":"16","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"17","highlight":"1","is_holiday":"1,"icon":"ic_holiday_india","festival":\""Gantantra Diwas\"","festivalL":\""गणतंत्र दिवस \""}</item>
+        <item>{"key":"18","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mauni Amavasya\"","festivalL":\""मौनी अमावस्या \""}</item>
+        <item>{"key":"19","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Snan-Daan Shradh Fast Amavsya/Maghi Amavsya\"","festivalL":\""स्नान-दान श्राद्ध एव/माघी अमावस्या\""}</item>
+        <item>{"key":"20","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"21","highlight":"0","is_holiday":"0,"icon":"ic_holiday_saraswathi_pooja","festival":\""Basant Panchami\"","festivalL":\""बसंत पंचमी  \""}</item>
+        <item>{"key":"22","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"23","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Narmada Jayanti\"","festivalL":\""नर्मदा जयंती \""}</item>
+        <item>{"key":"24","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"25","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Guru Gorakhnath jayanti\"","festivalL":\""गुरु गोरखनाथ जयंती \""}</item>
+        <item>{"key":"26","highlight":"0","is_holiday":"0,"icon":"ic_holiday_vishwa_karma","festival":\""Vishwakarma Jayanti\"","festivalL":\""विश्वकर्मा जयंती \""}</item>
+        <item>{"key":"27","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Sant Ravidas Jayanti\"","festivalL":\""संत रविदास जयंती \""}</item>
+        <item>{"key":"28","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Snan-Dan Vrat/Maghi poornima\"","festivalL":\""स्नान-दान व्रत एवं माघी,मौनी पूर्णिमा \""}</item>
+        <item>{"key":"29","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Valentine Day\"","festivalL":\""वैलेंटाइन डे \""}</item>
+        <item>{"key":"30","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Swami Dayananda Jayanti\"","festivalL":\""स्वामी दयानन्द सरस्वती जयंती \""}</item>
+        <item>{"key":"31","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"32","highlight":"1","is_holiday":"0,"icon":"ic_holiday_shiva_ratri","festival":\""Maha Shiv Ratri\"","festivalL":\""महा शिवरात्रि \""}</item>
+        <item>{"key":"33","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"34","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Snan-Daan Amaavsya\"","festivalL":\""स्नान-दान अमावस्या\""}</item>
+        <item>{"key":"35","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Chandra Shekhar Azad Satabdi diwas\"","festivalL":\""चंद्रशेखर​ आज़ाद शताब्दी दिवस ​\""}</item>
+        <item>{"key":"36","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Ramkrishna Paramhans Jayanti\"","festivalL":\""रामकृष्ण परमहंस जयंती \""}</item>
+        <item>{"key":"37","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"38","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"39","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"40","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Holika Dahan\"","festivalL":\""होलिका दहन \""}</item>
+        <item>{"key":"41","highlight":"0","is_holiday":"1,"icon":"ic_holiday_holi","festival":\""Holi Utsav/Dhulandi\"","festivalL":\""होली उत्सव/धुलण्डी \""}</item>
+        <item>{"key":"42","highlight":"1","is_holiday":"1,"icon":"NAME","festival":\""Bhai Dauj\"","festivalL":\""भाई दूज \""}</item>
+        <item>{"key":"43","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Chitragupt Pooja\"","festivalL":\""चित्रगुप्त पूजा \""}</item>
+        <item>{"key":"44","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"45","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Rang Panchami\"","festivalL":\""रंग पंचमी \""}</item>
+        <item>{"key":"46","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Shitala Ashtami/Basoda\"","festivalL":\""​शीतला अष्टमी/बासोड़ा \""}</item>
+        <item>{"key":"47","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Paapmochani Ekadashi\"","festivalL":\""पापमोचनी एकादशी \""}</item>
+        <item>{"key":"48","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"49","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"50","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Shradha Amavsya\"","festivalL":\""श्राद्ध अमावस्या \""}</item>
+        <item>{"key":"51","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Snan-Daan Amaavsya\"","festivalL":\""स्नान-दान अमावस्या\""}</item>
+        <item>{"key":"52","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"53","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Chaitra Navratri Prarambh\"","festivalL":\""​चैत्र नव-रात्रि प्रारम्भ ​\""}</item>
+        <item>{"key":"54","highlight":"1","is_holiday":"1,"icon":"NAME","festival":\""Gudi Padwa\"","festivalL":\""गुड़ी पड़वा/नव् संवत्सर प्रारम्भ \""}</item>
+        <item>{"key":"55","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Gangaur Teej\"","festivalL":\""गणगौर तीज \""}</item>
+        <item>{"key":"56","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"57","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Durga Ashtami Vrat\"","festivalL":\""दुर्गा अष्टमी व्रत \""}</item>
+        <item>{"key":"58","highlight":"1","is_holiday":"1,"icon":"ic_holiday_ram_navami","festival":\""Shri Ram Navmi\"","festivalL":\""श्रीराम नवमी \""}</item>
+        <item>{"key":"59","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Kamda Ekadhasi\"","festivalL":\""कामदा एकादशी \""}</item>
+        <item>{"key":"60","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"61","highlight":"1","is_holiday":"0,"icon":"ic_holiday_mahaveer","festival":\""Mahaveer Jayanti\"","festivalL":\""महावीर जयंती \""}</item>
+        <item>{"key":"62","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Snan-Daan Poornima Vrat\"","festivalL":\""स्नान-दान पूर्णिमा व्रत \""}</item>
+        <item>{"key":"63","highlight":"1","is_holiday":"0,"icon":"ic_holiday_hanuman","festival":\""Hanuman Jayanti\"","festivalL":\""हनुमान जयंती \""}</item>
+        <item>{"key":"64","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vishu\"","festivalL":\""विशु \""}</item>
+        <item>{"key":"65","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"66","highlight":"1","is_holiday":"0,"icon":"ic_holiday_good_friday","festival":\""Good Friday\"","festivalL":\""गुड़ फ्राइडे \""}</item>
+        <item>{"key":"67","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Guru Teg Bahadur Jayanti\"","festivalL":\""गुरु तेग बहादुर जयंती \""}</item>
+        <item>{"key":"68","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"69","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"70","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"71","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Satuwai Amavsya\"","festivalL":\""सतुवाई अमावस्या \""}</item>
+        <item>{"key":"72","highlight":"0","is_holiday":"0,"icon":"ic_holiday_shivaji_maharaj","festival":\""Shiva Ji Jyanti\"","festivalL":\""छत्रपति शिवा जी जयंती \""}</item>
+        <item>{"key":"73","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"74","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Akshay Tritiya\"","festivalL":\""अक्षय तृतीया \""}</item>
+        <item>{"key":"75","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"76","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Snan-Daan Poornima Fast/Budh Poornima\"","festivalL":\""स्नान-दान पूर्णिमा व्रत/बुद्ध पूर्णिमा\""}</item>
+        <item>{"key":"77","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"78","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"79","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"80","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Achala Ekadashi\"","festivalL":\""अचला एकादशी \""}</item>
+        <item>{"key":"81","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"82","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vat Vrat Prarambh\"","festivalL":\""वट व्रत प्रारम्भ \""}</item>
+        <item>{"key":"83","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vat Amavsya\"","festivalL":\""वट अमावस्या \""}</item>
+        <item>{"key":"84","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ramjaan Prarambh\"","festivalL":\""रमज़ान प्रारम्भ \""}</item>
+        <item>{"key":"85","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"86","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mahesh Navami\"","festivalL":\""महेश नवमी \""}</item>
+        <item>{"key":"87","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ganga Dashera\"","festivalL":\""गंगा दशहरा \""}</item>
+        <item>{"key":"88","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Nirjala Ekadashi\"","festivalL":\""निर्जला एकादशी \""}</item>
+        <item>{"key":"89","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"90","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"91","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"92","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Shitala Ashtami\"","festivalL":\""शीतला अष्टमी \""}</item>
+        <item>{"key":"93","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"94","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Yagini Ekadashi\"","festivalL":\""योगिनी एकादशी \""}</item>
+        <item>{"key":"95","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"96","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Hal Harini Amavsya\"","festivalL":\""हल हरिणी एकादशी \""}</item>
+        <item>{"key":"97","highlight":"1","is_holiday":"0,"icon":"ic_holiday_ratha_yatra","festival":\""Jagannath Rath Yatra\"","festivalL":\""जगन्नाथ रथ यात्रा \""}</item>
+        <item>{"key":"98","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Id-ul-Fitra (Eid)\"","festivalL":\""ईद-उल-फितर \""}</item>
+        <item>{"key":"99","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"100","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Dev Shayani Ekadashi\"","festivalL":\""देव शयनी एकादशी \""}</item>
+        <item>{"key":"101","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"102","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Guru Pooranima\"","festivalL":\""गुरु पूर्णिमा \""}</item>
+        <item>{"key":"103","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Shravan Somwaar\"","festivalL":\""श्रावण सोमवार\""}</item>
+        <item>{"key":"104","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Mangala-Gauri Vrat\"","festivalL":\""मंगला-गौरी व्रत \""}</item>
+        <item>{"key":"105","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"106","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"107","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"108","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Shravan Somwaar\"","festivalL":\""श्रावण सोमवार\""}</item>
+        <item>{"key":"109","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Mangala-Gauri Vrat\"","festivalL":\""मंगला-गौरी व्रत \""}</item>
+        <item>{"key":"110","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Hariyali Amavsya\"","festivalL":\""हरियाली अमावस्या \""}</item>
+        <item>{"key":"111","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Shravan Somwaar\"","festivalL":\""श्रावण सोमवार\""}</item>
+        <item>{"key":"112","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mangala-Gauri Vrat\"","festivalL":\""मंगला-गौरी व्रत \""}</item>
+        <item>{"key":"113","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"114","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Hariyali Teej\"","festivalL":\""हरियाली तीज \""}</item>
+        <item>{"key":"115","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mangala-Gauri Vrat\"","festivalL":\""मंगला-गौरी व्रत \""}</item>
+        <item>{"key":"116","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"117","highlight":"1","is_holiday":"1,"icon":"ic_holiday_raksha_bandha","festival":\""Raksha-Bandhan\"","festivalL":\""रक्षा-बन्धन \""}</item>
+        <item>{"key":"118","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Shravani Poornima\"","festivalL":\""श्रावणी पूर्णिमा \""}</item>
+        <item>{"key":"119","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Shravan Somwaar\"","festivalL":\""श्रावण सोमवार\""}</item>
+        <item>{"key":"120","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"121","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Kajari Teej\"","festivalL":\""कजरी तीज \""}</item>
+        <item>{"key":"122","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Bahula Ganesh Chaturthi\"","festivalL":\""बहुला गणेश चतुर्थी \""}</item>
+        <item>{"key":"123","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"124","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Hal-Chhat\"","festivalL":\""हल-छठ\""}</item>
+        <item>{"key":"125","highlight":"1","is_holiday":"1,"icon":"ic_holiday_india","festival":\""Swatantrata Diwas\"","festivalL":\""​स्वतन्त्रता दिवस\""}</item>
+        <item>{"key":"126","highlight":"1","is_holiday":"1,"icon":"ic_holiday_krishna","festival":\""Janmashtami Vrat\"","festivalL":\""जन्माष्टमी व्रत \""}</item>
+        <item>{"key":"127","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Goga Navmi\"","festivalL":\""गोगा नवमी \""}</item>
+        <item>{"key":"128","highlight":"1","is_holiday":"1,"icon":"NAME","festival":\""Parasi Nav Varsh\"","festivalL":\""पारसी नव वर्ष \""}</item>
+        <item>{"key":"129","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Bachh Baras\"","festivalL":\""बच्छ बारस\""}</item>
+        <item>{"key":"130","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"131","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Somvati Amavsya\"","festivalL":\""सोमवती अमावस्या \""}</item>
+        <item>{"key":"132","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Haritalika Teej\"","festivalL":\""हरितालिका तीज \""}</item>
+        <item>{"key":"133","highlight":"0","is_holiday":"0,"icon":"ic_holiday_ganesha","festival":\""Vinayaki Chaturthi vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"134","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Rishi Panchami\"","festivalL":\""ऋषि पंचमी \""}</item>
+        <item>{"key":"135","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Santaan Saptami\"","festivalL":\""संतान सप्तमी \""}</item>
+        <item>{"key":"136","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Mahalaxmi Vrat Prarambh\"","festivalL":\""महालक्ष्मी व्रत प्रारम्भ \""}</item>
+        <item>{"key":"137","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Radha Ashtami\"","festivalL":\""राधा अष्टमी \""}</item>
+        <item>{"key":"138","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Dhol Gyaras/Jal Jhulani Ekadashi\"","festivalL":\""ढोल ग्यारस / जल झूलनी एकादशी  \""}</item>
+        <item>{"key":"139","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Bakrid\"","festivalL":\""बकरीद\""}</item>
+        <item>{"key":"140","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"141","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Anant Chaturdashi\"","festivalL":\""अनंत चतुर्दशी\""}</item>
+        <item>{"key":"142","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"143","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Mahalaya Prarambh\"","festivalL":\""महालया प्रारम्भ\""}</item>
+        <item>{"key":"144","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"145","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"146","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mahalaxmi Vrat\"","festivalL":\""महालक्ष्मी व्रत\""}</item>
+        <item>{"key":"147","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"148","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pitra Moksha Amavsya\"","festivalL":\""पित्र मोक्ष अमावस्या \""}</item>
+        <item>{"key":"149","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Sardiya Navratra Prarambh\"","festivalL":\""शारदीय नव-रात्रि प्रारम्भ\""}</item>
+        <item>{"key":"150","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Hijri Naya Saal Shuru\"","festivalL":\""हिजरी नया साल शुरू \""}</item>
+        <item>{"key":"151","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi Vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"152","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Durga Ashtami Vrat\"","festivalL":\""दुर्गा अष्टमी व्रत \""}</item>
+        <item>{"key":"153","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Durga Navmi\"","festivalL":\""दुर्गा नवमी \""}</item>
+        <item>{"key":"154","highlight":"1","is_holiday":"0,"icon":"ic_holiday_durga_pooja","festival":\""Vijaya Dashami\"","festivalL":\""विजया दशमी\""}</item>
+        <item>{"key":"155","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Moharram (Taziya)\"","festivalL":\""मोहर्रम \""}</item>
+        <item>{"key":"156","highlight":"1","is_holiday":"1,"icon":"ic_holiday_gandhi_jayanthi","festival":\""Gandhi Jayanti/Lal Bahadur Jayanti\"","festivalL":\""गाँधी जयंती/लाल बहादुर शास्त्री जयंती\""}</item>
+        <item>{"key":"157","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"158","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"159","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Sharad Poornima/Kojagiri Vrat/Full Moon\"","festivalL":\""शरद पूर्णिमा/कोजागिरी\""}</item>
+        <item>{"key":"160","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"161","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Karwa Chauth \"","festivalL":\""करवा चौथ \""}</item>
+        <item>{"key":"162","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"163","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Ahoi Ashatami Vrat\"","festivalL":\""अहोई अष्टमी व्रत \""}</item>
+        <item>{"key":"164","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"165","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Dhan-Teras\"","festivalL":\""धन तेरस \""}</item>
+        <item>{"key":"166","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Roop Chaudas\"","festivalL":\""रूप चौदस \""}</item>
+        <item>{"key":"167","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Chhoti Diwali\"","festivalL":\""छोटी दिवाली \""}</item>
+        <item>{"key":"168","highlight":"1","is_holiday":"0,"icon":"ic_holiday_diwlai","festival":\""Diwali/Laxmi Poojan\"","festivalL":\""दिवाली-लक्ष्मी पूजन \""}</item>
+        <item>{"key":"169","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Govardhan Poja/Annakoot\"","festivalL":\""गोवर्धन पूजा-अन्नकूट\""}</item>
+        <item>{"key":"170","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Bhai Dauj\"","festivalL":\""भाई दूज \""}</item>
+        <item>{"key":"171","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Yam Dwitiya\"","festivalL":\""यम द्वितीया\""}</item>
+        <item>{"key":"172","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi Vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"173","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Dala Chhat\"","festivalL":\""डाला छत\""}</item>
+        <item>{"key":"174","highlight":"0","is_holiday":"0,"icon":"NAME","festival":\""Gopashtami\"","festivalL":\""गोपाष्टमी\""}</item>
+        <item>{"key":"175","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Anwala Navmi\"","festivalL":\""आँवला नवमी\""}</item>
+        <item>{"key":"176","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"177","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Dev Uthani Ekadashi\"","festivalL":\""देव उठनी एकादशी\""}</item>
+        <item>{"key":"178","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"179","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"180","highlight":"1","is_holiday":"0,"icon":"ic_holiday_nanak","festival":\""Guru Nanakdev Jayanti\"","festivalL":\""गुरु नानकदेव जयंती\""}</item>
+        <item>{"key":"181","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Kartik Poornima\"","festivalL":\""कार्तिक पूर्णिमा\""}</item>
+        <item>{"key":"182","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"183","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"184","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi Vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"185","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"186","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Moksha Ekadasi\"","festivalL":\""मोक्षदा एकादशी\""}</item>
+        <item>{"key":"187","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"188","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"189","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Datt Poornima\"","festivalL":\""दत्त पूर्णिमा\""}</item>
+        <item>{"key":"190","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Ganesh Chaturthi Vrat\"","festivalL":\""गणेश चतुर्थी व्रत \""}</item>
+        <item>{"key":"191","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Saphala Ekadasi\"","festivalL":\""सफला एकादशी\""}</item>
+        <item>{"key":"192","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"193","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Samvati Amavsya\"","festivalL":\""सोमवती अमावस्या \""}</item>
+        <item>{"key":"194","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vinayaki Chaturthi Vrat\"","festivalL":\""विनायकी चतुर्थी व्रत \""}</item>
+        <item>{"key":"195","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak Starts\"","festivalL":\""पंचक प्रारम्भ \""}</item>
+        <item>{"key":"196","highlight":"1","is_holiday":"1,"icon":"ic_holiday_christmas","festival":\""Christmas\"","festivalL":\""क्रिसमस\""}</item>
+        <item>{"key":"197","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Panchak End\"","festivalL":\""पंचक समाप्त \""}</item>
+        <item>{"key":"198","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Putrada Ekadashi\"","festivalL":\""पुत्रदा एकादशी\""}</item>
+        <item>{"key":"199","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Pradosh Vrat\"","festivalL":\""प्रदोष व्रत \""}</item>
+
+        <item>{"key":"200","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mahila Diwas\"","festivalL":\""महिला दिवस\""}</item>
+        <item>{"key":"201","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Vaishakhi\"","festivalL":\""श्रमिक दिवस\""}</item>
+        <item>{"key":"202","highlight":"1","is_holiday":"0,"icon":"ic_holiday_may_day","festival":\""Labour Day\"","festivalL":\""प्रदोष व्रत \""}</item>
+        <item>{"key":"203","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Mother\'s Day\"","festivalL":\""मदर डे\""}</item>
+        <item>{"key":"204","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Father\'s Day\"","festivalL":\""फादर डे\""}</item>
+        <item>{"key":"205","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Onam\"","festivalL":\""ओणम\""}</item>
+        <item>{"key":"206","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Teacher\'s Day\"","festivalL":\""शिक्षक दिवस\""}</item>
+        <item>{"key":"207","highlight":"1","is_holiday":"0,"icon":"NAME","festival":\""Childern\'s Day\"","festivalL":\""बाल दिवस\""}</item>
+
+
+    </string-array>
+
+    <string-array name="l_muhurtas_arr">
+        <item>{"type":"1","name":"name1","lname":"Rudra","ename":\""Cryer Howler\""}</item>
+    </string-array>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://iexamcenter.com\",\n  }\n}]</string>
+
+    <string name="nav_menu1">Today</string>
+    <string name="nav_menu2">News</string>
+    <string name="nav_menu3">Calendar</string>
+    <string name="nav_menu4">Event</string>
+    <string name="nav_menu5">Quote</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+
+</resources>
+
